@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68B2250B-F4DE-4E01-8C71-5D4124373CCD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TestDBFirstCient</RootNamespace>
+    <AssemblyName>TestDBFirstCient</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="a_auth_data.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="a_client_data.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="A_LOG.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="a_scope_master.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_ANSN_SBS_KIYK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_BIDN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_BIDN_20191120.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_BRK_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_CD_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_DNRYK_KIYK_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_DNRYK_KYN_HSN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_DNRYK_TTMSUTWK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_DNW.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_GSK_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_HYUZYU_ZYUSY_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_KIYK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_KIYKSY.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_KIYK_HSK_SYUSI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_KIYK_KIYKSY.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_KIYK_SKTI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_KIYK_SYUSI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_KIYK_WRBK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_KKTZTN_SIKYU.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_KSYU_M_BT_SYUKI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_MIG.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_MISYP_KNR_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_RKUW_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SBS_CD_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SHH.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SHKZ.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SIKYU.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SIKYU_KNR.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SKTI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SKTI_SUHSK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SYB.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SYB_DNRYK_HSK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SYB_HSK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_SYB_HSK_SYUSI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_TEKY_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_TKTN_FYJK_M.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_TK_SBS_JYH.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_TK_SBS_KZK_JYKY_M.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_TK_SBS_M.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_TTMS.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_TYUTI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_WRBK_SBS_CD_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_YZY_DNRYK_KITR.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C_ZYUSY.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="P_AMAZON_ACC_JYH.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_ANKT_KK_RRK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_ANSN_SBS_KIIN_KIYK_HMTK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_ANSN_SBS_MSKM_UKTK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CD_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CN_HOYU_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CN_KKRT_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CN_PINT_MSKM.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CN_PINT_RNKI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CN_PINT_SYRN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CN_PINT_ZNDK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CN_RGRT_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CN_SYO_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CN_TNRT_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CO2_RGRT_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CP_PINT_HYUZYU_SYRRK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CP_PINT_TISY_KIIN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CP_PINT_TISY_KIYK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_CP_PINT_ZNDK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_DKJ_KMNT.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_DNKI_MSKM_COOKIES_JYH.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_DNKI_MSKM_SYOKAISYA_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_DNKI_MSKM_UKTK_JYH.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_D_PINT_KIIN_NO_JYH.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_EIGYO_BI_M.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_ENTR_CD_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_ENTR_CD_TRKRRK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_GIFT_CAMPAIGN_KNRI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_GIFT_COUPON_KNRI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_GIFT_COUPON_LOT_KIIN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_GIFT_COUPON_TUSN_KIIN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_IDPWD_ZDNRK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KIIN_KHN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KIIN_KIYK_HMTK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KIIN_KIYK_HMTK_BIDN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KIIN_KIYK_HMTK_BIDN_20191120.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KIIN_KIYK_HMTK_OLD.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KIIN_UKTK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KIIN_ZYUHU_HNKU_RRK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KNKYU_HNSU_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KNRSY_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KNRSY_MTM_SYR_HMTK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_KR_KIIN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_LINE_RNKI_JYH.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_LINE_SIKYKG_SYUKI_SYUKI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_ML_HISN_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_MRMG_HISN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_MTURK_KIIN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_MTURK_KIIN_YYK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_NNSYNNK_KIINHMTK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_NNSY_CD_JYOHO.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_NNSY_MISS.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_NNSY_MISS_KNRSY.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_NYKI_RYU.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_OSRS_INFO.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_OSRS_KBN_GRUP_KNR.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_OSRS_KDK_KNR.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_PAYPAY_ACC_JYH.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_PINT_HYRRK_KIIN.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_PINT_HYRRK_KIYKTNI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_PINT_IKTSHY_YMKE.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_PINT_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_PINT_ZYT_MSKM.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_PWD_RRK_KNRSY.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_RYUKNRNDU_PINT.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SHK_KIIN_UKTK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SIKYKG_KKTI_ML_RRK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SKS_FY_MSKM.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SKTI_NNSY.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SKTI_NNSY_OLD.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SKTI_NNSY_OLD1.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SNKKIIN_MAIL_UKTK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SRAL_ID.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SSYN_KNR.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SSYN_KNR_KNRSY.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SYHN_KUKN_UKTK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SYOKAISYA_JYOHO.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_SYOKAISYA_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_TAPOINT_KKN_OTP_HK_RRK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_TDHK_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_TIAWS.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_TIAWS_SYBT_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_TIKI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_UKTKSY_KNR.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_YK_KIYK_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="P_YUBN_MST.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TGZZZConstants.cs" />
+    <Compile Include="TGZZZDba.cs" />
+    <Compile Include="TGZZZDba15.cs" />
+    <Compile Include="TGZZZDba16.cs" />
+    <Compile Include="TGZZZDba17.cs" />
+    <Compile Include="TGZZZGyo.cs" />
+    <Compile Include="TGZZZGyo20.cs" />
+    <Compile Include="TGZZZLog.cs" />
+    <Compile Include="TohogasDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TohogasDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TohogasDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TohogasDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TohogasDataModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW_DNRYK_TTMSUTWK.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW_KKTZTN_SIKYU.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW_SIKYU.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW_SIKYU_KNR.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW_TTMS.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW_TYUTI.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WK_SIKYU_GK_STS.cs">
+      <DependentUpon>TohogasDataModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <EntityDeploy Include="TohogasDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TohogasDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="TohogasDataModel.edmx.diagram">
+      <DependentUpon>TohogasDataModel.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TohogasDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TohogasDataModel.edmx</DependentUpon>
+      <LastGenOutput>TohogasDataModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="TohogasDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TohogasDataModel.edmx</DependentUpon>
+      <LastGenOutput>TohogasDataModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

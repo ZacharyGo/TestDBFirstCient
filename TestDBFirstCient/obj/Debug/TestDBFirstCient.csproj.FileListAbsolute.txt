@@ -1,0 +1,12 @@
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\obj\Debug\TestDBFirstCient.csproj.CoreCompileInputs.cache
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\bin\Debug\TestDBFirstCient.exe.config
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\bin\Debug\TestDBFirstCient.exe
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\bin\Debug\TestDBFirstCient.pdb
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\bin\Debug\EntityFramework.dll
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\bin\Debug\EntityFramework.SqlServer.dll
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\bin\Debug\EntityFramework.xml
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\bin\Debug\EntityFramework.SqlServer.xml
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\obj\Debug\TestDBFirstCient.csproj.CopyComplete
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\obj\Debug\TestDBFirstCient.exe
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\obj\Debug\TestDBFirstCient.pdb
+D:\Practice\C#\TestDBFirstCient\TestDBFirstCient\obj\Debug\TestDBFirstCient.csproj.AssemblyReference.cache

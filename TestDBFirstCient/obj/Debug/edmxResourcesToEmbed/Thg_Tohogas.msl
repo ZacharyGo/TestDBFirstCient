@@ -1,0 +1,2786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Thg_TohogasModelStoreContainer" CdmEntityContainer="Thg_TohogasEntities">
+    <EntitySetMapping Name="a_auth_data">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.a_auth_data">
+        <MappingFragment StoreEntitySet="a_auth_data">
+          <ScalarProperty Name="client_id" ColumnName="client_id" />
+          <ScalarProperty Name="sub" ColumnName="sub" />
+          <ScalarProperty Name="auth_code" ColumnName="auth_code" />
+          <ScalarProperty Name="auth_code_date" ColumnName="auth_code_date" />
+          <ScalarProperty Name="access_token" ColumnName="access_token" />
+          <ScalarProperty Name="access_token_date" ColumnName="access_token_date" />
+          <ScalarProperty Name="refresh_token" ColumnName="refresh_token" />
+          <ScalarProperty Name="refresh_token_date" ColumnName="refresh_token_date" />
+          <ScalarProperty Name="nonce" ColumnName="nonce" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="code_challenge_method" ColumnName="code_challenge_method" />
+          <ScalarProperty Name="code_challenge" ColumnName="code_challenge" />
+          <ScalarProperty Name="response_type" ColumnName="response_type" />
+          <ScalarProperty Name="response_mode" ColumnName="response_mode" />
+          <ScalarProperty Name="del_flag" ColumnName="del_flag" />
+          <ScalarProperty Name="regist_date" ColumnName="regist_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="a_client_data">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.a_client_data">
+        <MappingFragment StoreEntitySet="a_client_data">
+          <ScalarProperty Name="client_id" ColumnName="client_id" />
+          <ScalarProperty Name="client_secret" ColumnName="client_secret" />
+          <ScalarProperty Name="client_name" ColumnName="client_name" />
+          <ScalarProperty Name="redirect_uri" ColumnName="redirect_uri" />
+          <ScalarProperty Name="transition_uri" ColumnName="transition_uri" />
+          <ScalarProperty Name="scope" ColumnName="scope" />
+          <ScalarProperty Name="del_flag" ColumnName="del_flag" />
+          <ScalarProperty Name="regist_date" ColumnName="regist_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="A_LOG">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.A_LOG">
+        <MappingFragment StoreEntitySet="A_LOG">
+          <ScalarProperty Name="LOG" ColumnName="LOG" />
+          <ScalarProperty Name="LOG_CNT" ColumnName="LOG_CNT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="a_scope_master">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.a_scope_master">
+        <MappingFragment StoreEntitySet="a_scope_master">
+          <ScalarProperty Name="scope" ColumnName="scope" />
+          <ScalarProperty Name="scope_name" ColumnName="scope_name" />
+          <ScalarProperty Name="scope_description" ColumnName="scope_description" />
+          <ScalarProperty Name="del_flg" ColumnName="del_flg" />
+          <ScalarProperty Name="regist_date" ColumnName="regist_date" />
+          <ScalarProperty Name="update_date" ColumnName="update_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_BIDN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_BIDN">
+        <MappingFragment StoreEntitySet="C_BIDN">
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="JYDN_CHTN_TKTI_NO" ColumnName="JYDN_CHTN_TKTI_NO" />
+          <ScalarProperty Name="JYDN_BSY" ColumnName="JYDN_BSY" />
+          <ScalarProperty Name="KNY_KKN_CD" ColumnName="KNY_KKN_CD" />
+          <ScalarProperty Name="KZNO_SM5" ColumnName="KZNO_SM5" />
+          <ScalarProperty Name="CSV_FILE_MI" ColumnName="CSV_FILE_MI" />
+          <ScalarProperty Name="YMD" ColumnName="YMD" />
+          <ScalarProperty Name="BIDN_RYO1" ColumnName="BIDN_RYO1" />
+          <ScalarProperty Name="BIDN_RYO2" ColumnName="BIDN_RYO2" />
+          <ScalarProperty Name="BIDN_RYO3" ColumnName="BIDN_RYO3" />
+          <ScalarProperty Name="BIDN_RYO4" ColumnName="BIDN_RYO4" />
+          <ScalarProperty Name="BIDN_RYO5" ColumnName="BIDN_RYO5" />
+          <ScalarProperty Name="BIDN_RYO6" ColumnName="BIDN_RYO6" />
+          <ScalarProperty Name="BIDN_RYO7" ColumnName="BIDN_RYO7" />
+          <ScalarProperty Name="BIDN_RYO8" ColumnName="BIDN_RYO8" />
+          <ScalarProperty Name="BIDN_RYO9" ColumnName="BIDN_RYO9" />
+          <ScalarProperty Name="BIDN_RYO10" ColumnName="BIDN_RYO10" />
+          <ScalarProperty Name="BIDN_RYO11" ColumnName="BIDN_RYO11" />
+          <ScalarProperty Name="BIDN_RYO12" ColumnName="BIDN_RYO12" />
+          <ScalarProperty Name="BIDN_RYO13" ColumnName="BIDN_RYO13" />
+          <ScalarProperty Name="BIDN_RYO14" ColumnName="BIDN_RYO14" />
+          <ScalarProperty Name="BIDN_RYO15" ColumnName="BIDN_RYO15" />
+          <ScalarProperty Name="BIDN_RYO16" ColumnName="BIDN_RYO16" />
+          <ScalarProperty Name="BIDN_RYO17" ColumnName="BIDN_RYO17" />
+          <ScalarProperty Name="BIDN_RYO18" ColumnName="BIDN_RYO18" />
+          <ScalarProperty Name="BIDN_RYO19" ColumnName="BIDN_RYO19" />
+          <ScalarProperty Name="BIDN_RYO20" ColumnName="BIDN_RYO20" />
+          <ScalarProperty Name="BIDN_RYO21" ColumnName="BIDN_RYO21" />
+          <ScalarProperty Name="BIDN_RYO22" ColumnName="BIDN_RYO22" />
+          <ScalarProperty Name="BIDN_RYO23" ColumnName="BIDN_RYO23" />
+          <ScalarProperty Name="BIDN_RYO24" ColumnName="BIDN_RYO24" />
+          <ScalarProperty Name="BIDN_RYO25" ColumnName="BIDN_RYO25" />
+          <ScalarProperty Name="BIDN_RYO26" ColumnName="BIDN_RYO26" />
+          <ScalarProperty Name="BIDN_RYO27" ColumnName="BIDN_RYO27" />
+          <ScalarProperty Name="BIDN_RYO28" ColumnName="BIDN_RYO28" />
+          <ScalarProperty Name="BIDN_RYO29" ColumnName="BIDN_RYO29" />
+          <ScalarProperty Name="BIDN_RYO30" ColumnName="BIDN_RYO30" />
+          <ScalarProperty Name="BIDN_RYO31" ColumnName="BIDN_RYO31" />
+          <ScalarProperty Name="BIDN_RYO32" ColumnName="BIDN_RYO32" />
+          <ScalarProperty Name="BIDN_RYO33" ColumnName="BIDN_RYO33" />
+          <ScalarProperty Name="BIDN_RYO34" ColumnName="BIDN_RYO34" />
+          <ScalarProperty Name="BIDN_RYO35" ColumnName="BIDN_RYO35" />
+          <ScalarProperty Name="BIDN_RYO36" ColumnName="BIDN_RYO36" />
+          <ScalarProperty Name="BIDN_RYO37" ColumnName="BIDN_RYO37" />
+          <ScalarProperty Name="BIDN_RYO38" ColumnName="BIDN_RYO38" />
+          <ScalarProperty Name="BIDN_RYO39" ColumnName="BIDN_RYO39" />
+          <ScalarProperty Name="BIDN_RYO40" ColumnName="BIDN_RYO40" />
+          <ScalarProperty Name="BIDN_RYO41" ColumnName="BIDN_RYO41" />
+          <ScalarProperty Name="BIDN_RYO42" ColumnName="BIDN_RYO42" />
+          <ScalarProperty Name="BIDN_RYO43" ColumnName="BIDN_RYO43" />
+          <ScalarProperty Name="BIDN_RYO44" ColumnName="BIDN_RYO44" />
+          <ScalarProperty Name="BIDN_RYO45" ColumnName="BIDN_RYO45" />
+          <ScalarProperty Name="BIDN_RYO46" ColumnName="BIDN_RYO46" />
+          <ScalarProperty Name="BIDN_RYO47" ColumnName="BIDN_RYO47" />
+          <ScalarProperty Name="BIDN_RYO48" ColumnName="BIDN_RYO48" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_BIDN_20191120">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_BIDN_20191120">
+        <MappingFragment StoreEntitySet="C_BIDN_20191120">
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="JYDN_CHTN_TKTI_NO" ColumnName="JYDN_CHTN_TKTI_NO" />
+          <ScalarProperty Name="JYDN_BSY" ColumnName="JYDN_BSY" />
+          <ScalarProperty Name="KNY_KKN_CD" ColumnName="KNY_KKN_CD" />
+          <ScalarProperty Name="KZNO_SM5" ColumnName="KZNO_SM5" />
+          <ScalarProperty Name="CSV_FILE_MI" ColumnName="CSV_FILE_MI" />
+          <ScalarProperty Name="YMD" ColumnName="YMD" />
+          <ScalarProperty Name="BIDN_RYO1" ColumnName="BIDN_RYO1" />
+          <ScalarProperty Name="BIDN_RYO2" ColumnName="BIDN_RYO2" />
+          <ScalarProperty Name="BIDN_RYO3" ColumnName="BIDN_RYO3" />
+          <ScalarProperty Name="BIDN_RYO4" ColumnName="BIDN_RYO4" />
+          <ScalarProperty Name="BIDN_RYO5" ColumnName="BIDN_RYO5" />
+          <ScalarProperty Name="BIDN_RYO6" ColumnName="BIDN_RYO6" />
+          <ScalarProperty Name="BIDN_RYO7" ColumnName="BIDN_RYO7" />
+          <ScalarProperty Name="BIDN_RYO8" ColumnName="BIDN_RYO8" />
+          <ScalarProperty Name="BIDN_RYO9" ColumnName="BIDN_RYO9" />
+          <ScalarProperty Name="BIDN_RYO10" ColumnName="BIDN_RYO10" />
+          <ScalarProperty Name="BIDN_RYO11" ColumnName="BIDN_RYO11" />
+          <ScalarProperty Name="BIDN_RYO12" ColumnName="BIDN_RYO12" />
+          <ScalarProperty Name="BIDN_RYO13" ColumnName="BIDN_RYO13" />
+          <ScalarProperty Name="BIDN_RYO14" ColumnName="BIDN_RYO14" />
+          <ScalarProperty Name="BIDN_RYO15" ColumnName="BIDN_RYO15" />
+          <ScalarProperty Name="BIDN_RYO16" ColumnName="BIDN_RYO16" />
+          <ScalarProperty Name="BIDN_RYO17" ColumnName="BIDN_RYO17" />
+          <ScalarProperty Name="BIDN_RYO18" ColumnName="BIDN_RYO18" />
+          <ScalarProperty Name="BIDN_RYO19" ColumnName="BIDN_RYO19" />
+          <ScalarProperty Name="BIDN_RYO20" ColumnName="BIDN_RYO20" />
+          <ScalarProperty Name="BIDN_RYO21" ColumnName="BIDN_RYO21" />
+          <ScalarProperty Name="BIDN_RYO22" ColumnName="BIDN_RYO22" />
+          <ScalarProperty Name="BIDN_RYO23" ColumnName="BIDN_RYO23" />
+          <ScalarProperty Name="BIDN_RYO24" ColumnName="BIDN_RYO24" />
+          <ScalarProperty Name="BIDN_RYO25" ColumnName="BIDN_RYO25" />
+          <ScalarProperty Name="BIDN_RYO26" ColumnName="BIDN_RYO26" />
+          <ScalarProperty Name="BIDN_RYO27" ColumnName="BIDN_RYO27" />
+          <ScalarProperty Name="BIDN_RYO28" ColumnName="BIDN_RYO28" />
+          <ScalarProperty Name="BIDN_RYO29" ColumnName="BIDN_RYO29" />
+          <ScalarProperty Name="BIDN_RYO30" ColumnName="BIDN_RYO30" />
+          <ScalarProperty Name="BIDN_RYO31" ColumnName="BIDN_RYO31" />
+          <ScalarProperty Name="BIDN_RYO32" ColumnName="BIDN_RYO32" />
+          <ScalarProperty Name="BIDN_RYO33" ColumnName="BIDN_RYO33" />
+          <ScalarProperty Name="BIDN_RYO34" ColumnName="BIDN_RYO34" />
+          <ScalarProperty Name="BIDN_RYO35" ColumnName="BIDN_RYO35" />
+          <ScalarProperty Name="BIDN_RYO36" ColumnName="BIDN_RYO36" />
+          <ScalarProperty Name="BIDN_RYO37" ColumnName="BIDN_RYO37" />
+          <ScalarProperty Name="BIDN_RYO38" ColumnName="BIDN_RYO38" />
+          <ScalarProperty Name="BIDN_RYO39" ColumnName="BIDN_RYO39" />
+          <ScalarProperty Name="BIDN_RYO40" ColumnName="BIDN_RYO40" />
+          <ScalarProperty Name="BIDN_RYO41" ColumnName="BIDN_RYO41" />
+          <ScalarProperty Name="BIDN_RYO42" ColumnName="BIDN_RYO42" />
+          <ScalarProperty Name="BIDN_RYO43" ColumnName="BIDN_RYO43" />
+          <ScalarProperty Name="BIDN_RYO44" ColumnName="BIDN_RYO44" />
+          <ScalarProperty Name="BIDN_RYO45" ColumnName="BIDN_RYO45" />
+          <ScalarProperty Name="BIDN_RYO46" ColumnName="BIDN_RYO46" />
+          <ScalarProperty Name="BIDN_RYO47" ColumnName="BIDN_RYO47" />
+          <ScalarProperty Name="BIDN_RYO48" ColumnName="BIDN_RYO48" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_CD_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_CD_MST">
+        <MappingFragment StoreEntitySet="C_CD_MST">
+          <ScalarProperty Name="CD_TYPE" ColumnName="CD_TYPE" />
+          <ScalarProperty Name="CD" ColumnName="CD" />
+          <ScalarProperty Name="HYJMI" ColumnName="HYJMI" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_DNRYK_KIYK_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_DNRYK_KIYK_MST">
+        <MappingFragment StoreEntitySet="C_DNRYK_KIYK_MST">
+          <ScalarProperty Name="KIYK_SYBT" ColumnName="KIYK_SYBT" />
+          <ScalarProperty Name="RYSYT" ColumnName="RYSYT" />
+          <ScalarProperty Name="DNRYK_HTI_MNY_SYBT" ColumnName="DNRYK_HTI_MNY_SYBT" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="KIYK_TNI" ColumnName="KIYK_TNI" />
+          <ScalarProperty Name="SISYU_KIYK_YURYU" ColumnName="SISYU_KIYK_YURYU" />
+          <ScalarProperty Name="SIDI_KIYK_YURYU" ColumnName="SIDI_KIYK_YURYU" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_DNRYK_KYN_HSN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_DNRYK_KYN_HSN">
+        <MappingFragment StoreEntitySet="C_DNRYK_KYN_HSN">
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="KIYK_RNBN" ColumnName="KIYK_RNBN" />
+          <ScalarProperty Name="DNRYK_KYN_HSN_RNBN" ColumnName="DNRYK_KYN_HSN_RNBN" />
+          <ScalarProperty Name="SISN_FLG" ColumnName="SISN_FLG" />
+          <ScalarProperty Name="JY_KIYK_YURYU" ColumnName="JY_KIYK_YURYU" />
+          <ScalarProperty Name="KNSN_KZYN_H" ColumnName="KNSN_KZYN_H" />
+          <ScalarProperty Name="TYUTI_KZYN_H" ColumnName="TYUTI_KZYN_H" />
+          <ScalarProperty Name="RKRT" ColumnName="RKRT" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_DNRYK_TTMSUTWK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_DNRYK_TTMSUTWK">
+        <MappingFragment StoreEntitySet="C_DNRYK_TTMSUTWK">
+          <ScalarProperty Name="DNRYK_TTMS_UTWK_KNR_NO" ColumnName="DNRYK_TTMS_UTWK_KNR_NO" />
+          <ScalarProperty Name="TTMS_KNR_NO" ColumnName="TTMS_KNR_NO" />
+          <ScalarProperty Name="URAG_YM" ColumnName="URAG_YM" />
+          <ScalarProperty Name="SIKYU_KNR_NO" ColumnName="SIKYU_KNR_NO" />
+          <ScalarProperty Name="TYUTI_KNR_NO" ColumnName="TYUTI_KNR_NO" />
+          <ScalarProperty Name="TYYM" ColumnName="TYYM" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="RYUKN_CD" ColumnName="RYUKN_CD" />
+          <ScalarProperty Name="SBS_CD" ColumnName="SBS_CD" />
+          <ScalarProperty Name="DNRYK_HTI_MNY_SYBT" ColumnName="DNRYK_HTI_MNY_SYBT" />
+          <ScalarProperty Name="DNRYK_RKUW_CD" ColumnName="DNRYK_RKUW_CD" />
+          <ScalarProperty Name="DNRYK_GK" ColumnName="DNRYK_GK" />
+          <ScalarProperty Name="DNRYK_RYU" ColumnName="DNRYK_RYU" />
+          <ScalarProperty Name="DNRYK_RYU_TNK" ColumnName="DNRYK_RYU_TNK" />
+          <ScalarProperty Name="WRBK_RT" ColumnName="WRBK_RT" />
+          <ScalarProperty Name="KASN_KBN" ColumnName="KASN_KBN" />
+          <ScalarProperty Name="SI_KI_KBN" ColumnName="SI_KI_KBN" />
+          <ScalarProperty Name="SKM_DRK_TTMS_UW_KNR_NO" ColumnName="SKM_DRK_TTMS_UW_KNR_NO" />
+          <ScalarProperty Name="UTWKHYUZ_KM_IT" ColumnName="UTWKHYUZ_KM_IT" />
+          <ScalarProperty Name="UTWKHYUZ_KM_N" ColumnName="UTWKHYUZ_KM_N" />
+          <ScalarProperty Name="UTWKHYUZ_KM_SN" ColumnName="UTWKHYUZ_KM_SN" />
+          <ScalarProperty Name="UTWKHYUZ_KM_YN" ColumnName="UTWKHYUZ_KM_YN" />
+          <ScalarProperty Name="UTWKHYUZ_KM_G" ColumnName="UTWKHYUZ_KM_G" />
+          <ScalarProperty Name="RYUKN_TISI_KBN" ColumnName="RYUKN_TISI_KBN" />
+          <ScalarProperty Name="RYUKN_TISI_YMD" ColumnName="RYUKN_TISI_YMD" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_DNW">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_DNW">
+        <MappingFragment StoreEntitySet="C_DNW">
+          <ScalarProperty Name="MIG_NO" ColumnName="MIG_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="DNW_RNBN" ColumnName="DNW_RNBN" />
+          <ScalarProperty Name="DBY_ZYNI" ColumnName="DBY_ZYNI" />
+          <ScalarProperty Name="DWNO_SYBT" ColumnName="DWNO_SYBT" />
+          <ScalarProperty Name="DWNO" ColumnName="DWNO" />
+          <ScalarProperty Name="KNSKYU_DWNO" ColumnName="KNSKYU_DWNO" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_GSK_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_GSK_MST">
+        <MappingFragment StoreEntitySet="C_GSK_MST">
+          <ScalarProperty Name="GSK_CD" ColumnName="GSK_CD" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="GSK_MS_KN" ColumnName="GSK_MS_KN" />
+          <ScalarProperty Name="GSK_MS" ColumnName="GSK_MS" />
+          <ScalarProperty Name="GSK_HYUZ_ZYN" ColumnName="GSK_HYUZ_ZYN" />
+          <ScalarProperty Name="SG_KYKBN" ColumnName="SG_KYKBN" />
+          <ScalarProperty Name="SNTKYU_GSK_ME" ColumnName="SNTKYU_GSK_ME" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_HYUZYU_ZYUSY_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_HYUZYU_ZYUSY_MST">
+        <MappingFragment StoreEntitySet="C_HYUZYU_ZYUSY_MST">
+          <ScalarProperty Name="TDFK_CD" ColumnName="TDFK_CD" />
+          <ScalarProperty Name="SKTS_CD" ColumnName="SKTS_CD" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="TDHKSKTSR" ColumnName="TDHKSKTSR" />
+          <ScalarProperty Name="TDHKSKTSR_KN" ColumnName="TDHKSKTSR_KN" />
+          <ScalarProperty Name="TDFK_HYUZ_ZYN" ColumnName="TDFK_HYUZ_ZYN" />
+          <ScalarProperty Name="SKTS_HYUZ_ZYN" ColumnName="SKTS_HYUZ_ZYN" />
+          <ScalarProperty Name="SNTKYU_TDFK_ME" ColumnName="SNTKYU_TDFK_ME" />
+          <ScalarProperty Name="SNTKYU_SKTS_ME" ColumnName="SNTKYU_SKTS_ME" />
+          <ScalarProperty Name="ZYUSY_RBR_CD" ColumnName="ZYUSY_RBR_CD" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_KIYK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_KIYK">
+        <MappingFragment StoreEntitySet="C_KIYK">
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="KIYK_RNBN" ColumnName="KIYK_RNBN" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="KIYK_SYBT" ColumnName="KIYK_SYBT" />
+          <ScalarProperty Name="RYSYT" ColumnName="RYSYT" />
+          <ScalarProperty Name="SRID_PTN" ColumnName="SRID_PTN" />
+          <ScalarProperty Name="KIYK_ZYUTI" ColumnName="KIYK_ZYUTI" />
+          <ScalarProperty Name="TKYK_KIYK_KBN" ColumnName="TKYK_KIYK_KBN" />
+          <ScalarProperty Name="SKG_NO" ColumnName="SKG_NO" />
+          <ScalarProperty Name="KIYK_KNG_H" ColumnName="KIYK_KNG_H" />
+          <ScalarProperty Name="KIYK_SYRY_YMD" ColumnName="KIYK_SYRY_YMD" />
+          <ScalarProperty Name="SY_KIYK_NO" ColumnName="SY_KIYK_NO" />
+          <ScalarProperty Name="SY_KIYK_RNBN" ColumnName="SY_KIYK_RNBN" />
+          <ScalarProperty Name="OY_KIYK_NO" ColumnName="OY_KIYK_NO" />
+          <ScalarProperty Name="OY_KIYK_RNBN" ColumnName="OY_KIYK_RNBN" />
+          <ScalarProperty Name="KIYK_KIS_KBN" ColumnName="KIYK_KIS_KBN" />
+          <ScalarProperty Name="KIYK_SYRY_KBN" ColumnName="KIYK_SYRY_KBN" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_KIYK_HSK_SYUSI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_KIYK_HSK_SYUSI">
+        <MappingFragment StoreEntitySet="C_KIYK_HSK_SYUSI">
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="KIYK_HSK_RRK_RNBN" ColumnName="KIYK_HSK_RRK_RNBN" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="SY_KIYK_NO" ColumnName="SY_KIYK_NO" />
+          <ScalarProperty Name="KIYK_MS_STI_HUHU_KBN" ColumnName="KIYK_MS_STI_HUHU_KBN" />
+          <ScalarProperty Name="KIYK_MS_KN" ColumnName="KIYK_MS_KN" />
+          <ScalarProperty Name="KIYK_MS" ColumnName="KIYK_MS" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_KIYK_KIYKSY">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_KIYK_KIYKSY">
+        <MappingFragment StoreEntitySet="C_KIYK_KIYKSY">
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="KIYK_KIYKSY_RNBN" ColumnName="KIYK_KIYKSY_RNBN" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="KIYKSY_NO" ColumnName="KIYKSY_NO" />
+          <ScalarProperty Name="DKYS_NO" ColumnName="DKYS_NO" />
+          <ScalarProperty Name="SYKIYK_NO" ColumnName="SYKIYK_NO" />
+          <ScalarProperty Name="KIYKSY_KIS_KBN" ColumnName="KIYKSY_KIS_KBN" />
+          <ScalarProperty Name="KIYKSY_SYRY_KBN" ColumnName="KIYKSY_SYRY_KBN" />
+          <ScalarProperty Name="HNKU_KIS_KNSN_M" ColumnName="HNKU_KIS_KNSN_M" />
+          <ScalarProperty Name="HNKU_SYRY_KNSN_M" ColumnName="HNKU_SYRY_KNSN_M" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_KIYK_SKTI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_KIYK_SKTI">
+        <MappingFragment StoreEntitySet="C_KIYK_SKTI">
+          <ScalarProperty Name="SY_KIYK_NO" ColumnName="SY_KIYK_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="KIYK_SKTI_RNBN" ColumnName="KIYK_SKTI_RNBN" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="IKT_KNG_H" ColumnName="IKT_KNG_H" />
+          <ScalarProperty Name="IKT_SYRY_YMD" ColumnName="IKT_SYRY_YMD" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_KIYK_SYUSI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_KIYK_SYUSI">
+        <MappingFragment StoreEntitySet="C_KIYK_SYUSI">
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="KIYK_SYUSI_NO" ColumnName="KIYK_SYUSI_NO" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="SY_KIYK_NO" ColumnName="SY_KIYK_NO" />
+          <ScalarProperty Name="KASN_KBN" ColumnName="KASN_KBN" />
+          <ScalarProperty Name="KIYK_SYUSI_ZYUTI" ColumnName="KIYK_SYUSI_ZYUTI" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="SYB_RRK_NO" ColumnName="SYB_RRK_NO" />
+          <ScalarProperty Name="KIYK_SYUSI_KNG_H" ColumnName="KIYK_SYUSI_KNG_H" />
+          <ScalarProperty Name="KIYK_SYUSI_SYRY_YMD" ColumnName="KIYK_SYUSI_SYRY_YMD" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_KIYK_WRBK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_KIYK_WRBK">
+        <MappingFragment StoreEntitySet="C_KIYK_WRBK">
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="WRBK_SYBT" ColumnName="WRBK_SYBT" />
+          <ScalarProperty Name="KIYK_WRBK_RNBN" ColumnName="KIYK_WRBK_RNBN" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="KIYK_RNBN" ColumnName="KIYK_RNBN" />
+          <ScalarProperty Name="KIYK_ZYUTI" ColumnName="KIYK_ZYUTI" />
+          <ScalarProperty Name="KIYK_DUK_FLG" ColumnName="KIYK_DUK_FLG" />
+          <ScalarProperty Name="KIYK_KIS_TKYU_KBN" ColumnName="KIYK_KIS_TKYU_KBN" />
+          <ScalarProperty Name="KIYK_SYRY_TKYU_KBN" ColumnName="KIYK_SYRY_TKYU_KBN" />
+          <ScalarProperty Name="KIYK_KNG_H" ColumnName="KIYK_KNG_H" />
+          <ScalarProperty Name="KIYK_SYRY_YMD" ColumnName="KIYK_SYRY_YMD" />
+          <ScalarProperty Name="SY_KIYK_NO" ColumnName="SY_KIYK_NO" />
+          <ScalarProperty Name="SY_KIYK_RNBN" ColumnName="SY_KIYK_RNBN" />
+          <ScalarProperty Name="TYK_KYM" ColumnName="TYK_KYM" />
+          <ScalarProperty Name="TYS_KYM" ColumnName="TYS_KYM" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_KIYKSY">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_KIYKSY">
+        <MappingFragment StoreEntitySet="C_KIYKSY">
+          <ScalarProperty Name="KIYKSY_NO" ColumnName="KIYKSY_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="KIYKSY_RNBN" ColumnName="KIYKSY_RNBN" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="KIYKSY_MIG_NO" ColumnName="KIYKSY_MIG_NO" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_KKTZTN_SIKYU">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_KKTZTN_SIKYU">
+        <MappingFragment StoreEntitySet="C_KKTZTN_SIKYU">
+          <ScalarProperty Name="SIKYU_KNR_NO" ColumnName="SIKYU_KNR_NO" />
+          <ScalarProperty Name="SIKYU_YM" ColumnName="SIKYU_YM" />
+          <ScalarProperty Name="URAG_YM" ColumnName="URAG_YM" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="DKYS_NO" ColumnName="DKYS_NO" />
+          <ScalarProperty Name="SKKT_KBN" ColumnName="SKKT_KBN" />
+          <ScalarProperty Name="SIKYU_HKU_KBN" ColumnName="SIKYU_HKU_KBN" />
+          <ScalarProperty Name="SIKYU_KISU" ColumnName="SIKYU_KISU" />
+          <ScalarProperty Name="SIKYU_GK" ColumnName="SIKYU_GK" />
+          <ScalarProperty Name="SYHZ" ColumnName="SYHZ" />
+          <ScalarProperty Name="KRKS_NYUKN_GK" ColumnName="KRKS_NYUKN_GK" />
+          <ScalarProperty Name="NYUKN_GK" ColumnName="NYUKN_GK" />
+          <ScalarProperty Name="HRIKM_RNBN" ColumnName="HRIKM_RNBN" />
+          <ScalarProperty Name="SHH_KBN" ColumnName="SHH_KBN" />
+          <ScalarProperty Name="KSKIB_SYBT" ColumnName="KSKIB_SYBT" />
+          <ScalarProperty Name="KSKIB" ColumnName="KSKIB" />
+          <ScalarProperty Name="TIRI_KKTI_YMD" ColumnName="TIRI_KKTI_YMD" />
+          <ScalarProperty Name="KYM_H" ColumnName="KYM_H" />
+          <ScalarProperty Name="YKGT_KRKS_FLG" ColumnName="YKGT_KRKS_FLG" />
+          <ScalarProperty Name="SEUS_AR_FLG" ColumnName="SEUS_AR_FLG" />
+          <ScalarProperty Name="MIG_NO_AR_FLG" ColumnName="MIG_NO_AR_FLG" />
+          <ScalarProperty Name="MIG_NO" ColumnName="MIG_NO" />
+          <ScalarProperty Name="YUKU_TYKS" ColumnName="YUKU_TYKS" />
+          <ScalarProperty Name="MKU_TYKS" ColumnName="MKU_TYKS" />
+          <ScalarProperty Name="SIKYU_KNTR" ColumnName="SIKYU_KNTR" />
+          <ScalarProperty Name="KKTIZM_FLG" ColumnName="KKTIZM_FLG" />
+          <ScalarProperty Name="SISN_NYUKN_GK" ColumnName="SISN_NYUKN_GK" />
+          <ScalarProperty Name="SISN_NYUKN_HUHU_KBN" ColumnName="SISN_NYUKN_HUHU_KBN" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_KSYU_M_BT_SYUKI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_KSYU_M_BT_SYUKI">
+        <MappingFragment StoreEntitySet="C_KSYU_M_BT_SYUKI">
+          <ScalarProperty Name="TISYU_YM" ColumnName="TISYU_YM" />
+          <ScalarProperty Name="HIKN_KON" ColumnName="HIKN_KON" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_MIG">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_MIG">
+        <MappingFragment StoreEntitySet="C_MIG">
+          <ScalarProperty Name="MIG_NO" ColumnName="MIG_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="MIG_RNBN" ColumnName="MIG_RNBN" />
+          <ScalarProperty Name="MIG_SYBT" ColumnName="MIG_SYBT" />
+          <ScalarProperty Name="SMI_KZ" ColumnName="SMI_KZ" />
+          <ScalarProperty Name="SMI_KN" ColumnName="SMI_KN" />
+          <ScalarProperty Name="KNSKYU_SMI_KN" ColumnName="KNSKYU_SMI_KN" />
+          <ScalarProperty Name="ZYUSY_NO" ColumnName="ZYUSY_NO" />
+          <ScalarProperty Name="SYBZ_DUIT_FLG" ColumnName="SYBZ_DUIT_FLG" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_RKUW_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_RKUW_MST">
+        <MappingFragment StoreEntitySet="C_RKUW_MST">
+          <ScalarProperty Name="RYUKN_CD" ColumnName="RYUKN_CD" />
+          <ScalarProperty Name="RKUW_CD" ColumnName="RKUW_CD" />
+          <ScalarProperty Name="SBS_CD" ColumnName="SBS_CD" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="RKUW_MS" ColumnName="RKUW_MS" />
+          <ScalarProperty Name="SISN_TURK_K_FLG" ColumnName="SISN_TURK_K_FLG" />
+          <ScalarProperty Name="HHC_RKUW_SYYTSY_FLG" ColumnName="HHC_RKUW_SYYTSY_FLG" />
+          <ScalarProperty Name="SYUYK_RYUKN_CD" ColumnName="SYUYK_RYUKN_CD" />
+          <ScalarProperty Name="SYUYK_RKUW_CD" ColumnName="SYUYK_RKUW_CD" />
+          <ScalarProperty Name="SYUYKZ_SRYKSNTSY_FLG" ColumnName="SYUYKZ_SRYKSNTSY_FLG" />
+          <ScalarProperty Name="MST_KZ_IT" ColumnName="MST_KZ_IT" />
+          <ScalarProperty Name="MST_KZ_N" ColumnName="MST_KZ_N" />
+          <ScalarProperty Name="MST_HNKU_RRK" ColumnName="MST_HNKU_RRK" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SBS_CD_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SBS_CD_MST">
+        <MappingFragment StoreEntitySet="C_SBS_CD_MST">
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="KIYK_SYBT" ColumnName="KIYK_SYBT" />
+          <ScalarProperty Name="RYSYT" ColumnName="RYSYT" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="SBS_CD" ColumnName="SBS_CD" />
+          <ScalarProperty Name="KIYK_SYBT_MS" ColumnName="KIYK_SYBT_MS" />
+          <ScalarProperty Name="KIYK_SYBT_MS_TYHY" ColumnName="KIYK_SYBT_MS_TYHY" />
+          <ScalarProperty Name="KSR_BI_YU" ColumnName="KSR_BI_YU" />
+          <ScalarProperty Name="KSR_ZYKT" ColumnName="KSR_ZYKT" />
+          <ScalarProperty Name="KSR_ZYKT_TYHY" ColumnName="KSR_ZYKT_TYHY" />
+          <ScalarProperty Name="RYSYT_MS" ColumnName="RYSYT_MS" />
+          <ScalarProperty Name="KSR_NZRKT" ColumnName="KSR_NZRKT" />
+          <ScalarProperty Name="KSR_NZRKT_TYHY" ColumnName="KSR_NZRKT_TYHY" />
+          <ScalarProperty Name="YKN_KBN" ColumnName="YKN_KBN" />
+          <ScalarProperty Name="TKBT_YKN_FLG" ColumnName="TKBT_YKN_FLG" />
+          <ScalarProperty Name="KIYK_KNR_KBN" ColumnName="KIYK_KNR_KBN" />
+          <ScalarProperty Name="KSS_RYNR_FLG" ColumnName="KSS_RYNR_FLG" />
+          <ScalarProperty Name="GHP_RYNR_FLG" ColumnName="GHP_RYNR_FLG" />
+          <ScalarProperty Name="KIYK_SYKNR_NYURYK_FLG" ColumnName="KIYK_SYKNR_NYURYK_FLG" />
+          <ScalarProperty Name="KRZT_HRI_KNU_FLG" ColumnName="KRZT_HRI_KNU_FLG" />
+          <ScalarProperty Name="ZN_H_KYUHIZT_YKN_KBN" ColumnName="ZN_H_KYUHIZT_YKN_KBN" />
+          <ScalarProperty Name="KIYK_KUSN_SYUK" ColumnName="KIYK_KUSN_SYUK" />
+          <ScalarProperty Name="RYOKKT_YMD" ColumnName="RYOKKT_YMD" />
+          <ScalarProperty Name="RYOKKT_KBN" ColumnName="RYOKKT_KBN" />
+          <ScalarProperty Name="SGYK_KNSN_GYUM_TK_KBN" ColumnName="SGYK_KNSN_GYUM_TK_KBN" />
+          <ScalarProperty Name="SDSYR_KST_FLG" ColumnName="SDSYR_KST_FLG" />
+          <ScalarProperty Name="YKSYR_KST_FLG" ColumnName="YKSYR_KST_FLG" />
+          <ScalarProperty Name="HRKE_STI_H_STI_KBN" ColumnName="HRKE_STI_H_STI_KBN" />
+          <ScalarProperty Name="SYSYGKYT_KNU_FLG" ColumnName="SYSYGKYT_KNU_FLG" />
+          <ScalarProperty Name="TYUK_HWR_KISN_AR_FLG" ColumnName="TYUK_HWR_KISN_AR_FLG" />
+          <ScalarProperty Name="SSN_NYURYK_YU_FLG" ColumnName="SSN_NYURYK_YU_FLG" />
+          <ScalarProperty Name="ZKSY_FLG" ColumnName="ZKSY_FLG" />
+          <ScalarProperty Name="TKKBT_KISNYU_MKIYK_FLG" ColumnName="TKKBT_KISNYU_MKIYK_FLG" />
+          <ScalarProperty Name="KIYK_KUSI_FLG" ColumnName="KIYK_KUSI_FLG" />
+          <ScalarProperty Name="KIYK_KUSN_SRTS_FLG" ColumnName="KIYK_KUSN_SRTS_FLG" />
+          <ScalarProperty Name="NOKGK_YU_FLG" ColumnName="NOKGK_YU_FLG" />
+          <ScalarProperty Name="MOK_KISN_YU_FLG" ColumnName="MOK_KISN_YU_FLG" />
+          <ScalarProperty Name="KZN_GKSYR_SKSI_AR_FLG" ColumnName="KZN_GKSYR_SKSI_AR_FLG" />
+          <ScalarProperty Name="HHCH_TISYU_YKN_FLG" ColumnName="HHCH_TISYU_YKN_FLG" />
+          <ScalarProperty Name="STYK_KIS_OSRS_SRTS_FLG" ColumnName="STYK_KIS_OSRS_SRTS_FLG" />
+          <ScalarProperty Name="TKYK_TAT_TISYU_FLG" ColumnName="TKYK_TAT_TISYU_FLG" />
+          <ScalarProperty Name="KSR_HHC_GMNYU_IT" ColumnName="KSR_HHC_GMNYU_IT" />
+          <ScalarProperty Name="KSR_HHC_GMNYU_N" ColumnName="KSR_HHC_GMNYU_N" />
+          <ScalarProperty Name="KSR_HHC_TYUHYUYU" ColumnName="KSR_HHC_TYUHYUYU" />
+          <ScalarProperty Name="KYUZT_SSN_NYURYK_FLG" ColumnName="KYUZT_SSN_NYURYK_FLG" />
+          <ScalarProperty Name="HHC_RK_TISYU_FLG" ColumnName="HHC_RK_TISYU_FLG" />
+          <ScalarProperty Name="KIYKHHC_SBS_SYUSI_SYBT" ColumnName="KIYKHHC_SBS_SYUSI_SYBT" />
+          <ScalarProperty Name="TKYK_GMN_TRTS_FLG" ColumnName="TKYK_GMN_TRTS_FLG" />
+          <ScalarProperty Name="HIS_YKN_YMD" ColumnName="HIS_YKN_YMD" />
+          <ScalarProperty Name="HISZM_FLG" ColumnName="HISZM_FLG" />
+          <ScalarProperty Name="RK_TISYU_FLG" ColumnName="RK_TISYU_FLG" />
+          <ScalarProperty Name="KK_MNT_KIYK_KNU_FLG" ColumnName="KK_MNT_KIYK_KNU_FLG" />
+          <ScalarProperty Name="RKRT_STI_YU_FLG" ColumnName="RKRT_STI_YU_FLG" />
+          <ScalarProperty Name="ZSK_RKRT_YU_FLG" ColumnName="ZSK_RKRT_YU_FLG" />
+          <ScalarProperty Name="MST_KZ_IT" ColumnName="MST_KZ_IT" />
+          <ScalarProperty Name="MST_KZ_N" ColumnName="MST_KZ_N" />
+          <ScalarProperty Name="MST_HNKU_RRK" ColumnName="MST_HNKU_RRK" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SHH">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SHH">
+        <MappingFragment StoreEntitySet="C_SHH">
+          <ScalarProperty Name="SHH_NO" ColumnName="SHH_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="DKYS_NO" ColumnName="DKYS_NO" />
+          <ScalarProperty Name="KUHR_KRZT_KBN" ColumnName="KUHR_KRZT_KBN" />
+          <ScalarProperty Name="SHKZ_MSM_KNR_NO" ColumnName="SHKZ_MSM_KNR_NO" />
+          <ScalarProperty Name="SHKRM_KNR_NO" ColumnName="SHKRM_KNR_NO" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SHKZ">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SHKZ">
+        <MappingFragment StoreEntitySet="C_SHKZ">
+          <ScalarProperty Name="SHKZ_MSM_KNR_NO" ColumnName="SHKZ_MSM_KNR_NO" />
+          <ScalarProperty Name="DKYS_NO" ColumnName="DKYS_NO" />
+          <ScalarProperty Name="SHH_SYU_KNU_FLG" ColumnName="SHH_SYU_KNU_FLG" />
+          <ScalarProperty Name="KZNO" ColumnName="KZNO" />
+          <ScalarProperty Name="TUTYU_NO" ColumnName="TUTYU_NO" />
+          <ScalarProperty Name="MSM_YMD" ColumnName="MSM_YMD" />
+          <ScalarProperty Name="UKTK_YMD" ColumnName="UKTK_YMD" />
+          <ScalarProperty Name="KUSN_YMD" ColumnName="KUSN_YMD" />
+          <ScalarProperty Name="MSM_SYB_NO" ColumnName="MSM_SYB_NO" />
+          <ScalarProperty Name="MSM_KIYK_NO" ColumnName="MSM_KIYK_NO" />
+          <ScalarProperty Name="MSM_SKTI_NO" ColumnName="MSM_SKTI_NO" />
+          <ScalarProperty Name="KNYU_SSK_NO" ColumnName="KNYU_SSK_NO" />
+          <ScalarProperty Name="KUHR_UKTK_KBN" ColumnName="KUHR_UKTK_KBN" />
+          <ScalarProperty Name="KUHR_UKTK_STTS_KBN" ColumnName="KUHR_UKTK_STTS_KBN" />
+          <ScalarProperty Name="YUTY_FLG" ColumnName="YUTY_FLG" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="TYS_RYU_KBN" ColumnName="TYS_RYU_KBN" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SIKYU">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SIKYU">
+        <MappingFragment StoreEntitySet="C_SIKYU">
+          <ScalarProperty Name="SIKYU_KNR_NO" ColumnName="SIKYU_KNR_NO" />
+          <ScalarProperty Name="SIKYU_YM" ColumnName="SIKYU_YM" />
+          <ScalarProperty Name="URAG_YM" ColumnName="URAG_YM" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="DKYS_NO" ColumnName="DKYS_NO" />
+          <ScalarProperty Name="SKKT_KBN" ColumnName="SKKT_KBN" />
+          <ScalarProperty Name="SIKYU_HKU_KBN" ColumnName="SIKYU_HKU_KBN" />
+          <ScalarProperty Name="SIKYU_KISU" ColumnName="SIKYU_KISU" />
+          <ScalarProperty Name="SIKYU_GK" ColumnName="SIKYU_GK" />
+          <ScalarProperty Name="SYHZ" ColumnName="SYHZ" />
+          <ScalarProperty Name="KRKS_NYUKN_GK" ColumnName="KRKS_NYUKN_GK" />
+          <ScalarProperty Name="NYUKN_GK" ColumnName="NYUKN_GK" />
+          <ScalarProperty Name="HRIKM_RNBN" ColumnName="HRIKM_RNBN" />
+          <ScalarProperty Name="SHH_KBN" ColumnName="SHH_KBN" />
+          <ScalarProperty Name="KSKIB_SYBT" ColumnName="KSKIB_SYBT" />
+          <ScalarProperty Name="KSKIB" ColumnName="KSKIB" />
+          <ScalarProperty Name="TIRI_KKTI_YMD" ColumnName="TIRI_KKTI_YMD" />
+          <ScalarProperty Name="KYM_H" ColumnName="KYM_H" />
+          <ScalarProperty Name="YKGT_KRKS_FLG" ColumnName="YKGT_KRKS_FLG" />
+          <ScalarProperty Name="SEUS_AR_FLG" ColumnName="SEUS_AR_FLG" />
+          <ScalarProperty Name="MIG_NO_AR_FLG" ColumnName="MIG_NO_AR_FLG" />
+          <ScalarProperty Name="MIG_NO" ColumnName="MIG_NO" />
+          <ScalarProperty Name="YUKU_TYKS" ColumnName="YUKU_TYKS" />
+          <ScalarProperty Name="MKU_TYKS" ColumnName="MKU_TYKS" />
+          <ScalarProperty Name="SIKYU_KNTR" ColumnName="SIKYU_KNTR" />
+          <ScalarProperty Name="KKTIZM_FLG" ColumnName="KKTIZM_FLG" />
+          <ScalarProperty Name="SISN_NYUKN_GK" ColumnName="SISN_NYUKN_GK" />
+          <ScalarProperty Name="SISN_NYUKN_HUHU_KBN" ColumnName="SISN_NYUKN_HUHU_KBN" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SIKYU_KNR">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SIKYU_KNR">
+        <MappingFragment StoreEntitySet="C_SIKYU_KNR">
+          <ScalarProperty Name="SIKYU_KNR_NO" ColumnName="SIKYU_KNR_NO" />
+          <ScalarProperty Name="SIKYU_YM" ColumnName="SIKYU_YM" />
+          <ScalarProperty Name="URAG_YM" ColumnName="URAG_YM" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="SIKYU_TIMNG_KBN" ColumnName="SIKYU_TIMNG_KBN" />
+          <ScalarProperty Name="HISN_SIKYU_KBN" ColumnName="HISN_SIKYU_KBN" />
+          <ScalarProperty Name="SIKYU_KKTI_YMD" ColumnName="SIKYU_KKTI_YMD" />
+          <ScalarProperty Name="URAG_YMD" ColumnName="URAG_YMD" />
+          <ScalarProperty Name="KSN_YMD" ColumnName="KSN_YMD" />
+          <ScalarProperty Name="SHKG_YMD" ColumnName="SHKG_YMD" />
+          <ScalarProperty Name="SHH_KBN" ColumnName="SHH_KBN" />
+          <ScalarProperty Name="KZHK_SKYZT_KBN" ColumnName="KZHK_SKYZT_KBN" />
+          <ScalarProperty Name="KH_DS_YMD_IT" ColumnName="KH_DS_YMD_IT" />
+          <ScalarProperty Name="KH_DS_YMD_N" ColumnName="KH_DS_YMD_N" />
+          <ScalarProperty Name="KH_DS_YMD_SN" ColumnName="KH_DS_YMD_SN" />
+          <ScalarProperty Name="KZHK_YMD_IT" ColumnName="KZHK_YMD_IT" />
+          <ScalarProperty Name="KZHK_YMD_N" ColumnName="KZHK_YMD_N" />
+          <ScalarProperty Name="KZHK_YMD_SN" ColumnName="KZHK_YMD_SN" />
+          <ScalarProperty Name="RNZ_KZHK_TURK_YMD" ColumnName="RNZ_KZHK_TURK_YMD" />
+          <ScalarProperty Name="RNZ_KZHK_TRKS_YMD" ColumnName="RNZ_KZHK_TRKS_YMD" />
+          <ScalarProperty Name="KRHR_SKYZT_KBN" ColumnName="KRHR_SKYZT_KBN" />
+          <ScalarProperty Name="KRZT_KUH_YMD" ColumnName="KRZT_KUH_YMD" />
+          <ScalarProperty Name="KRHR_YMD" ColumnName="KRHR_YMD" />
+          <ScalarProperty Name="RNZ_KRZT_TURK_YMD" ColumnName="RNZ_KRZT_TURK_YMD" />
+          <ScalarProperty Name="RNZ_KRZT_TRKS_YMD" ColumnName="RNZ_KRZT_TRKS_YMD" />
+          <ScalarProperty Name="HRIKM_SKYZT_KBN" ColumnName="HRIKM_SKYZT_KBN" />
+          <ScalarProperty Name="HKH_SYSK_SYRI" ColumnName="HKH_SYSK_SYRI" />
+          <ScalarProperty Name="HKH_SYTRYK_YMD" ColumnName="HKH_SYTRYK_YMD" />
+          <ScalarProperty Name="RNZ_HRIKM_TURK_YMD" ColumnName="RNZ_HRIKM_TURK_YMD" />
+          <ScalarProperty Name="RNZ_HRIKM_TRKS_YMD" ColumnName="RNZ_HRIKM_TRKS_YMD" />
+          <ScalarProperty Name="IPN_HRKM_SKYZT_KBN" ColumnName="IPN_HRKM_SKYZT_KBN" />
+          <ScalarProperty Name="SKHY_SYTRYK_YMD" ColumnName="SKHY_SYTRYK_YMD" />
+          <ScalarProperty Name="TKRI_HUMN_SKYZT_KBN" ColumnName="TKRI_HUMN_SKYZT_KBN" />
+          <ScalarProperty Name="TKRI_HUMN_SYUKN_YMD" ColumnName="TKRI_HUMN_SYUKN_YMD" />
+          <ScalarProperty Name="SIKYUSY_ZYUTI_KBN" ColumnName="SIKYUSY_ZYUTI_KBN" />
+          <ScalarProperty Name="SIKYUSY_SYSK_SYRI" ColumnName="SIKYUSY_SYSK_SYRI" />
+          <ScalarProperty Name="SIKYUSY_HKU_YMD" ColumnName="SIKYUSY_HKU_YMD" />
+          <ScalarProperty Name="RYUKN_TISI_AR_FLG" ColumnName="RYUKN_TISI_AR_FLG" />
+          <ScalarProperty Name="RYUKN_TISI_YMD" ColumnName="RYUKN_TISI_YMD" />
+          <ScalarProperty Name="SIKYU_TISI_NIYU_KBN" ColumnName="SIKYU_TISI_NIYU_KBN" />
+          <ScalarProperty Name="SIKYU_TISI_YMD" ColumnName="SIKYU_TISI_YMD" />
+          <ScalarProperty Name="MIG_TYK_YMD" ColumnName="MIG_TYK_YMD" />
+          <ScalarProperty Name="KSB_HNKU_RYU_KBN" ColumnName="KSB_HNKU_RYU_KBN" />
+          <ScalarProperty Name="KSN_YMD_TISI_YMD" ColumnName="KSN_YMD_TISI_YMD" />
+          <ScalarProperty Name="YKGT_KRKS_KBN" ColumnName="YKGT_KRKS_KBN" />
+          <ScalarProperty Name="KSSYH_ZYUTI_KBN" ColumnName="KSSYH_ZYUTI_KBN" />
+          <ScalarProperty Name="KSSYH_YTI_YMD" ColumnName="KSSYH_YTI_YMD" />
+          <ScalarProperty Name="YZNHKH_HKU_ZYUTI_KBN" ColumnName="YZNHKH_HKU_ZYUTI_KBN" />
+          <ScalarProperty Name="YZNHKH_HKU_YTI_YMD" ColumnName="YZNHKH_HKU_YTI_YMD" />
+          <ScalarProperty Name="KSN_ZYUTI_KBN" ColumnName="KSN_ZYUTI_KBN" />
+          <ScalarProperty Name="KSN_YYK_YMD" ColumnName="KSN_YYK_YMD" />
+          <ScalarProperty Name="KSN_YYK_TRKS_YMD" ColumnName="KSN_YYK_TRKS_YMD" />
+          <ScalarProperty Name="KSN_KKTI_YMD" ColumnName="KSN_KKTI_YMD" />
+          <ScalarProperty Name="SISN_NYUKN_ZYUTI_KBN" ColumnName="SISN_NYUKN_ZYUTI_KBN" />
+          <ScalarProperty Name="SISN_KRNYUKN_ZYUTI_KBN" ColumnName="SISN_KRNYUKN_ZYUTI_KBN" />
+          <ScalarProperty Name="NYYMD" ColumnName="NYYMD" />
+          <ScalarProperty Name="NKTK_YMD" ColumnName="NKTK_YMD" />
+          <ScalarProperty Name="ZDZT_ZYUTI_KBN" ColumnName="ZDZT_ZYUTI_KBN" />
+          <ScalarProperty Name="SISN_NYUKN_HUHU_KBN" ColumnName="SISN_NYUKN_HUHU_KBN" />
+          <ScalarProperty Name="ZR_EN_SIKYU_FLG" ColumnName="ZR_EN_SIKYU_FLG" />
+          <ScalarProperty Name="KZHK_IRHK_KNRYU_YMD" ColumnName="KZHK_IRHK_KNRYU_YMD" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SKTI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SKTI">
+        <MappingFragment StoreEntitySet="C_SKTI">
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="SKTI_RNBN" ColumnName="SKTI_RNBN" />
+          <ScalarProperty Name="DKYS_NO" ColumnName="DKYS_NO" />
+          <ScalarProperty Name="SHH_NO" ColumnName="SHH_NO" />
+          <ScalarProperty Name="SHH_KBN" ColumnName="SHH_KBN" />
+          <ScalarProperty Name="KZHK_STI_H" ColumnName="KZHK_STI_H" />
+          <ScalarProperty Name="KZHK_STI_KIBN" ColumnName="KZHK_STI_KIBN" />
+          <ScalarProperty Name="KRHR_STI_H" ColumnName="KRHR_STI_H" />
+          <ScalarProperty Name="KRHR_STI_KIBN" ColumnName="KRHR_STI_KIBN" />
+          <ScalarProperty Name="HRKE_BNKT_HYUZ_KBN" ColumnName="HRKE_BNKT_HYUZ_KBN" />
+          <ScalarProperty Name="SYGSK_YKGT_GSN_KYH_FLG" ColumnName="SYGSK_YKGT_GSN_KYH_FLG" />
+          <ScalarProperty Name="SYSYGKYT_FLG" ColumnName="SYSYGKYT_FLG" />
+          <ScalarProperty Name="IDU_TNDK_SIKYU_FLG" ColumnName="IDU_TNDK_SIKYU_FLG" />
+          <ScalarProperty Name="SHH_TKYU_YMD" ColumnName="SHH_TKYU_YMD" />
+          <ScalarProperty Name="SIKYU_RNBN" ColumnName="SIKYU_RNBN" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SKTI_SUHSK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SKTI_SUHSK">
+        <MappingFragment StoreEntitySet="C_SKTI_SUHSK">
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="SKTI_SUHSK_RNBN" ColumnName="SKTI_SUHSK_RNBN" />
+          <ScalarProperty Name="SESS_KBN" ColumnName="SESS_KBN" />
+          <ScalarProperty Name="MIG_NO" ColumnName="MIG_NO" />
+          <ScalarProperty Name="ZYUSY_NO" ColumnName="ZYUSY_NO" />
+          <ScalarProperty Name="SIKYU_SYB_NO" ColumnName="SIKYU_SYB_NO" />
+          <ScalarProperty Name="TNKYSK_HMI_FLG" ColumnName="TNKYSK_HMI_FLG" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SYB">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SYB">
+        <MappingFragment StoreEntitySet="C_SYB">
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="SYB_RNBN" ColumnName="SYB_RNBN" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="M_SY_CD" ColumnName="M_SY_CD" />
+          <ScalarProperty Name="NNRYU_SYBT" ColumnName="NNRYU_SYBT" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SYB_DNRYK_HSK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SYB_DNRYK_HSK">
+        <MappingFragment StoreEntitySet="C_SYB_DNRYK_HSK">
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="SYB_DNRYK_HSK_RNBN" ColumnName="SYB_DNRYK_HSK_RNBN" />
+          <ScalarProperty Name="SISN_FLG" ColumnName="SISN_FLG" />
+          <ScalarProperty Name="KYUKYU_TTN_TKTI_NO" ColumnName="KYUKYU_TTN_TKTI_NO" />
+          <ScalarProperty Name="SHIDNJGS_CD" ColumnName="SHIDNJGS_CD" />
+          <ScalarProperty Name="KATIKTJDN_FLG" ColumnName="KATIKTJDN_FLG" />
+          <ScalarProperty Name="DNRYK_KBN_IT" ColumnName="DNRYK_KBN_IT" />
+          <ScalarProperty Name="DNRYK_MEM_IT" ColumnName="DNRYK_MEM_IT" />
+          <ScalarProperty Name="DNRYK_KBN_N" ColumnName="DNRYK_KBN_N" />
+          <ScalarProperty Name="DNRYK_MEM_N" ColumnName="DNRYK_MEM_N" />
+          <ScalarProperty Name="DNRYK_KBN_SN" ColumnName="DNRYK_KBN_SN" />
+          <ScalarProperty Name="DNRYK_MEM_SN" ColumnName="DNRYK_MEM_SN" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SYB_HSK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SYB_HSK">
+        <MappingFragment StoreEntitySet="C_SYB_HSK">
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="SYB_HSK_RNBN" ColumnName="SYB_HSK_RNBN" />
+          <ScalarProperty Name="SISN_FLG" ColumnName="SISN_FLG" />
+          <ScalarProperty Name="ZYUSY_NO" ColumnName="ZYUSY_NO" />
+          <ScalarProperty Name="SYUSY_MIG_NO" ColumnName="SYUSY_MIG_NO" />
+          <ScalarProperty Name="SYB_KYUS_YMD" ColumnName="SYB_KYUS_YMD" />
+          <ScalarProperty Name="KYUS_KITI_SYBT" ColumnName="KYUS_KITI_SYBT" />
+          <ScalarProperty Name="TURK_IDU_KNR_NO" ColumnName="TURK_IDU_KNR_NO" />
+          <ScalarProperty Name="TRKS_IDU_KNR_NO" ColumnName="TRKS_IDU_KNR_NO" />
+          <ScalarProperty Name="YUT_DIBNRI_CD" ColumnName="YUT_DIBNRI_CD" />
+          <ScalarProperty Name="YUT_TYU_SYUBNRI_CD" ColumnName="YUT_TYU_SYUBNRI_CD" />
+          <ScalarProperty Name="HIRT_FLG" ColumnName="HIRT_FLG" />
+          <ScalarProperty Name="GSTU_FLG" ColumnName="GSTU_FLG" />
+          <ScalarProperty Name="M_RNTR_AR_FLG" ColumnName="M_RNTR_AR_FLG" />
+          <ScalarProperty Name="HKU_YUT" ColumnName="HKU_YUT" />
+          <ScalarProperty Name="GYGS_BNRI" ColumnName="GYGS_BNRI" />
+          <ScalarProperty Name="ONRIN_ZN_TKY_FLG" ColumnName="ONRIN_ZN_TKY_FLG" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_SYB_HSK_SYUSI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_SYB_HSK_SYUSI">
+        <MappingFragment StoreEntitySet="C_SYB_HSK_SYUSI">
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="SYB_HSK_RRK_RNBN" ColumnName="SYB_HSK_RRK_RNBN" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="SYB_MS_KN" ColumnName="SYB_MS_KN" />
+          <ScalarProperty Name="SYB_MS" ColumnName="SYB_MS" />
+          <ScalarProperty Name="SYB_ME_STI_AR_FLG" ColumnName="SYB_ME_STI_AR_FLG" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_TK_SBS_JYH">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_TK_SBS_JYH">
+        <MappingFragment StoreEntitySet="C_TK_SBS_JYH">
+          <ScalarProperty Name="TKJH_KNR_NO" ColumnName="TKJH_KNR_NO" />
+          <ScalarProperty Name="TKJH_RRK_RNBN" ColumnName="TKJH_RRK_RNBN" />
+          <ScalarProperty Name="SSN_FLG" ColumnName="SSN_FLG" />
+          <ScalarProperty Name="TK_UKTK_YMD" ColumnName="TK_UKTK_YMD" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="TK_SBS_CD" ColumnName="TK_SBS_CD" />
+          <ScalarProperty Name="TK_SBS_KZK_JYKY" ColumnName="TK_SBS_KZK_JYKY" />
+          <ScalarProperty Name="TK_SBS_KS_YMD" ColumnName="TK_SBS_KS_YMD" />
+          <ScalarProperty Name="TK_SBS_SYRY_YMD" ColumnName="TK_SBS_SYRY_YMD" />
+          <ScalarProperty Name="TSY_KKNN_YMD" ColumnName="TSY_KKNN_YMD" />
+          <ScalarProperty Name="TKS_KKNN_YMD" ColumnName="TKS_KKNN_YMD" />
+          <ScalarProperty Name="TK_SBS_SKM" ColumnName="TK_SBS_SKM" />
+          <ScalarProperty Name="TK_SBS_UKTK_KK" ColumnName="TK_SBS_UKTK_KK" />
+          <ScalarProperty Name="SYK_TSY_KKNN_YMD" ColumnName="SYK_TSY_KKNN_YMD" />
+          <ScalarProperty Name="SYK_TKS_KKNN_YMD" ColumnName="SYK_TKS_KKNN_YMD" />
+          <ScalarProperty Name="TSY_KKNN_KK" ColumnName="TSY_KKNN_KK" />
+          <ScalarProperty Name="TKS_KKNN_KK" ColumnName="TKS_KKNN_KK" />
+          <ScalarProperty Name="TRK_YMD" ColumnName="TRK_YMD" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_TK_SBS_KZK_JYKY_M">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_TK_SBS_KZK_JYKY_M">
+        <MappingFragment StoreEntitySet="C_TK_SBS_KZK_JYKY_M">
+          <ScalarProperty Name="TK_SBS_KZK_JYKY" ColumnName="TK_SBS_KZK_JYKY" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="TK_SBS_KZK_JYKY_BNR" ColumnName="TK_SBS_KZK_JYKY_BNR" />
+          <ScalarProperty Name="TK_SBS_KZK_JYKY_BNR_MSY" ColumnName="TK_SBS_KZK_JYKY_BNR_MSY" />
+          <ScalarProperty Name="TK_SBS_KZK_JYKY_MSY" ColumnName="TK_SBS_KZK_JYKY_MSY" />
+          <ScalarProperty Name="TK_SBS_KZK_JYKY_MSY_KY" ColumnName="TK_SBS_KZK_JYKY_MSY_KY" />
+          <ScalarProperty Name="CLUB_THG_HJTSY_KBN" ColumnName="CLUB_THG_HJTSY_KBN" />
+          <ScalarProperty Name="CLUB_THG_KZK_JYKY_MSY_KY" ColumnName="CLUB_THG_KZK_JYKY_MSY_KY" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_TK_SBS_M">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_TK_SBS_M">
+        <MappingFragment StoreEntitySet="C_TK_SBS_M">
+          <ScalarProperty Name="TK_SBS_CD" ColumnName="TK_SBS_CD" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="TK_KSY_SSK_NO" ColumnName="TK_KSY_SSK_NO" />
+          <ScalarProperty Name="TK_SBS_MSY" ColumnName="TK_SBS_MSY" />
+          <ScalarProperty Name="TK_SBS_RYSY" ColumnName="TK_SBS_RYSY" />
+          <ScalarProperty Name="TK_SBS_MSY_HYJY" ColumnName="TK_SBS_MSY_HYJY" />
+          <ScalarProperty Name="TK_SBS_MSY_KY" ColumnName="TK_SBS_MSY_KY" />
+          <ScalarProperty Name="TK_SBS_RYSY_KY" ColumnName="TK_SBS_RYSY_KY" />
+          <ScalarProperty Name="TKTN_FY_PNT_SU" ColumnName="TKTN_FY_PNT_SU" />
+          <ScalarProperty Name="SNT_TKTN_FY" ColumnName="SNT_TKTN_FY" />
+          <ScalarProperty Name="TKTN_FYJK" ColumnName="TKTN_FYJK" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_TKTN_FYJK_M">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_TKTN_FYJK_M">
+        <MappingFragment StoreEntitySet="C_TKTN_FYJK_M">
+          <ScalarProperty Name="TKTN_FYJK" ColumnName="TKTN_FYJK" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="TKTN_FYJK_BNR" ColumnName="TKTN_FYJK_BNR" />
+          <ScalarProperty Name="TKTN_FYJK_BNR_MSY" ColumnName="TKTN_FYJK_BNR_MSY" />
+          <ScalarProperty Name="TKTN_FYJK_MSY" ColumnName="TKTN_FYJK_MSY" />
+          <ScalarProperty Name="TKTN_FYJK_MSY_KY" ColumnName="TKTN_FYJK_MSY_KY" />
+          <ScalarProperty Name="CLUB_THG_TKTN_FYJK_MSY_KY" ColumnName="CLUB_THG_TKTN_FYJK_MSY_KY" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_TTMS">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_TTMS">
+        <MappingFragment StoreEntitySet="C_TTMS">
+          <ScalarProperty Name="TTMS_KNR_NO" ColumnName="TTMS_KNR_NO" />
+          <ScalarProperty Name="URAG_YM" ColumnName="URAG_YM" />
+          <ScalarProperty Name="SIKYU_KNR_NO" ColumnName="SIKYU_KNR_NO" />
+          <ScalarProperty Name="TYUTI_KNR_NO" ColumnName="TYUTI_KNR_NO" />
+          <ScalarProperty Name="TYYM" ColumnName="TYYM" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="GK" ColumnName="GK" />
+          <ScalarProperty Name="NYUKN_GK" ColumnName="NYUKN_GK" />
+          <ScalarProperty Name="KSKIB_SYBT" ColumnName="KSKIB_SYBT" />
+          <ScalarProperty Name="KSKIB" ColumnName="KSKIB" />
+          <ScalarProperty Name="UTWK_KBN" ColumnName="UTWK_KBN" />
+          <ScalarProperty Name="RYUKN_CD" ColumnName="RYUKN_CD" />
+          <ScalarProperty Name="RKUW_CD" ColumnName="RKUW_CD" />
+          <ScalarProperty Name="SBS_CD" ColumnName="SBS_CD" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="KIYK_SYBT" ColumnName="KIYK_SYBT" />
+          <ScalarProperty Name="RYSYT" ColumnName="RYSYT" />
+          <ScalarProperty Name="WRBK_SYBT" ColumnName="WRBK_SYBT" />
+          <ScalarProperty Name="YUT_DIBNRI_CD" ColumnName="YUT_DIBNRI_CD" />
+          <ScalarProperty Name="YUT_TYU_SYUBNRI_CD" ColumnName="YUT_TYU_SYUBNRI_CD" />
+          <ScalarProperty Name="SYHZ_KBN" ColumnName="SYHZ_KBN" />
+          <ScalarProperty Name="SYZR" ColumnName="SYZR" />
+          <ScalarProperty Name="SYHZ" ColumnName="SYHZ" />
+          <ScalarProperty Name="KIYK_RYUKN_KBN" ColumnName="KIYK_RYUKN_KBN" />
+          <ScalarProperty Name="RK_KBN" ColumnName="RK_KBN" />
+          <ScalarProperty Name="HWR_KBN" ColumnName="HWR_KBN" />
+          <ScalarProperty Name="RYUKN_TISI_KBN" ColumnName="RYUKN_TISI_KBN" />
+          <ScalarProperty Name="RYUKN_TISI_YMD" ColumnName="RYUKN_TISI_YMD" />
+          <ScalarProperty Name="SYR_IT" ColumnName="SYR_IT" />
+          <ScalarProperty Name="SYR_N" ColumnName="SYR_N" />
+          <ScalarProperty Name="RKH_CD" ColumnName="RKH_CD" />
+          <ScalarProperty Name="KHN_RYUKN" ColumnName="KHN_RYUKN" />
+          <ScalarProperty Name="ZRRK_IT" ColumnName="ZRRK_IT" />
+          <ScalarProperty Name="ZRRK_N" ColumnName="ZRRK_N" />
+          <ScalarProperty Name="ZRT_IT" ColumnName="ZRT_IT" />
+          <ScalarProperty Name="ZRT_N" ColumnName="ZRT_N" />
+          <ScalarProperty Name="WRBK_RYUKN" ColumnName="WRBK_RYUKN" />
+          <ScalarProperty Name="WRBK_RT" ColumnName="WRBK_RT" />
+          <ScalarProperty Name="SURYU" ColumnName="SURYU" />
+          <ScalarProperty Name="KISU" ColumnName="KISU" />
+          <ScalarProperty Name="SYU_KNG_H" ColumnName="SYU_KNG_H" />
+          <ScalarProperty Name="SYU_SYRY_YMD" ColumnName="SYU_SYRY_YMD" />
+          <ScalarProperty Name="SYU_NSU" ColumnName="SYU_NSU" />
+          <ScalarProperty Name="ZNKI_SSN_T_IT" ColumnName="ZNKI_SSN_T_IT" />
+          <ScalarProperty Name="RISKRYU_IT" ColumnName="RISKRYU_IT" />
+          <ScalarProperty Name="ZNKI_SSN_T_N" ColumnName="ZNKI_SSN_T_N" />
+          <ScalarProperty Name="RISKRYU_N" ColumnName="RISKRYU_N" />
+          <ScalarProperty Name="KZYU_SYBT" ColumnName="KZYU_SYBT" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="HSIMT_NYYMD" ColumnName="HSIMT_NYYMD" />
+          <ScalarProperty Name="HSIMT_TYYM" ColumnName="HSIMT_TYYM" />
+          <ScalarProperty Name="TRSBRT_K" ColumnName="TRSBRT_K" />
+          <ScalarProperty Name="SIKYU_KBN" ColumnName="SIKYU_KBN" />
+          <ScalarProperty Name="DM_KIYK_FLG" ColumnName="DM_KIYK_FLG" />
+          <ScalarProperty Name="RYUKN_KYUSI_TISI_FLG" ColumnName="RYUKN_KYUSI_TISI_FLG" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_TYUTI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_TYUTI">
+        <MappingFragment StoreEntitySet="C_TYUTI">
+          <ScalarProperty Name="TYUTI_KNR_NO" ColumnName="TYUTI_KNR_NO" />
+          <ScalarProperty Name="SIKYU_KNR_NO" ColumnName="SIKYU_KNR_NO" />
+          <ScalarProperty Name="SY_KIYK_NO" ColumnName="SY_KIYK_NO" />
+          <ScalarProperty Name="TYYM" ColumnName="TYYM" />
+          <ScalarProperty Name="TYUTI_HKU_KBN" ColumnName="TYUTI_HKU_KBN" />
+          <ScalarProperty Name="HKU_KISU" ColumnName="HKU_KISU" />
+          <ScalarProperty Name="HISN_SIKYU_KBN" ColumnName="HISN_SIKYU_KBN" />
+          <ScalarProperty Name="URAG_YM" ColumnName="URAG_YM" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="TYUTI_GK" ColumnName="TYUTI_GK" />
+          <ScalarProperty Name="NYUKN_GK" ColumnName="NYUKN_GK" />
+          <ScalarProperty Name="SYHZ" ColumnName="SYHZ" />
+          <ScalarProperty Name="KSKIB_SYBT" ColumnName="KSKIB_SYBT" />
+          <ScalarProperty Name="KSKIB" ColumnName="KSKIB" />
+          <ScalarProperty Name="TIRI_KYM_H" ColumnName="TIRI_KYM_H" />
+          <ScalarProperty Name="TIRI_KKTI_YMD" ColumnName="TIRI_KKTI_YMD" />
+          <ScalarProperty Name="KYM_H" ColumnName="KYM_H" />
+          <ScalarProperty Name="KSN_YMD" ColumnName="KSN_YMD" />
+          <ScalarProperty Name="TYYM_NTZHNBYU" ColumnName="TYYM_NTZHNBYU" />
+          <ScalarProperty Name="KKTI_YMD" ColumnName="KKTI_YMD" />
+          <ScalarProperty Name="RYUKN_TISI_YMD" ColumnName="RYUKN_TISI_YMD" />
+          <ScalarProperty Name="YKGT_KRKS_KBN" ColumnName="YKGT_KRKS_KBN" />
+          <ScalarProperty Name="YUKU_TTMS_AR_FLG" ColumnName="YUKU_TTMS_AR_FLG" />
+          <ScalarProperty Name="SISNHYU_AR_FLG" ColumnName="SISNHYU_AR_FLG" />
+          <ScalarProperty Name="KSI_NO" ColumnName="KSI_NO" />
+          <ScalarProperty Name="KKTIZM_FLG" ColumnName="KKTIZM_FLG" />
+          <ScalarProperty Name="SU_NO" ColumnName="SU_NO" />
+          <ScalarProperty Name="SEUS_NO" ColumnName="SEUS_NO" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_WRBK_SBS_CD_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_WRBK_SBS_CD_MST">
+        <MappingFragment StoreEntitySet="C_WRBK_SBS_CD_MST">
+          <ScalarProperty Name="SBS_CD" ColumnName="SBS_CD" />
+          <ScalarProperty Name="WRBK_SYBT" ColumnName="WRBK_SYBT" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="KSR_ZYKT" ColumnName="KSR_ZYKT" />
+          <ScalarProperty Name="KSR_NZRKT" ColumnName="KSR_NZRKT" />
+          <ScalarProperty Name="WSRY_HHC_GMHZY" ColumnName="WSRY_HHC_GMHZY" />
+          <ScalarProperty Name="TYKZGH_TISYU_FLG" ColumnName="TYKZGH_TISYU_FLG" />
+          <ScalarProperty Name="TYKZGH_SYTRYK_NO" ColumnName="TYKZGH_SYTRYK_NO" />
+          <ScalarProperty Name="OSRS_MSZ_NO" ColumnName="OSRS_MSZ_NO" />
+          <ScalarProperty Name="WRBK_SYBT_MS" ColumnName="WRBK_SYBT_MS" />
+          <ScalarProperty Name="WSRY_BI_YU" ColumnName="WSRY_BI_YU" />
+          <ScalarProperty Name="HIS_YKN_YMD" ColumnName="HIS_YKN_YMD" />
+          <ScalarProperty Name="HISZM_FLG" ColumnName="HISZM_FLG" />
+          <ScalarProperty Name="RK_TISYU_FLG" ColumnName="RK_TISYU_FLG" />
+          <ScalarProperty Name="MST_KZ_IT" ColumnName="MST_KZ_IT" />
+          <ScalarProperty Name="MST_KZ_N" ColumnName="MST_KZ_N" />
+          <ScalarProperty Name="MST_HNKU_RRK" ColumnName="MST_HNKU_RRK" />
+          <ScalarProperty Name="ST_WRBK_FLG" ColumnName="ST_WRBK_FLG" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_YZY_DNRYK_KITR">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_YZY_DNRYK_KITR">
+        <MappingFragment StoreEntitySet="C_YZY_DNRYK_KITR">
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="CSV_FILE_MI" ColumnName="CSV_FILE_MI" />
+          <ScalarProperty Name="YM" ColumnName="YM" />
+          <ScalarProperty Name="YZY_DNRYK_KITR_RNBN" ColumnName="YZY_DNRYK_KITR_RNBN" />
+          <ScalarProperty Name="KITR_RYO" ColumnName="KITR_RYO" />
+          <ScalarProperty Name="TNK" ColumnName="TNK" />
+          <ScalarProperty Name="KITR_GK" ColumnName="KITR_GK" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_ZYUSY">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_ZYUSY">
+        <MappingFragment StoreEntitySet="C_ZYUSY">
+          <ScalarProperty Name="ZYUSY_NO" ColumnName="ZYUSY_NO" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="ZYUSY_RNBN" ColumnName="ZYUSY_RNBN" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="YUBN_NO" ColumnName="YUBN_NO" />
+          <ScalarProperty Name="TDFK_CD" ColumnName="TDFK_CD" />
+          <ScalarProperty Name="SKTS_CD" ColumnName="SKTS_CD" />
+          <ScalarProperty Name="GSK_CD" ColumnName="GSK_CD" />
+          <ScalarProperty Name="ZYUSY_KN" ColumnName="ZYUSY_KN" />
+          <ScalarProperty Name="ZYUSY_KZ" ColumnName="ZYUSY_KZ" />
+          <ScalarProperty Name="KNSKYU_BNT_KN" ColumnName="KNSKYU_BNT_KN" />
+          <ScalarProperty Name="TMMTM_KN" ColumnName="TMMTM_KN" />
+          <ScalarProperty Name="TMMTM_KZ" ColumnName="TMMTM_KZ" />
+          <ScalarProperty Name="KNSKYU_TMMTM_KN" ColumnName="KNSKYU_TMMTM_KN" />
+          <ScalarProperty Name="TMGS_KN" ColumnName="TMGS_KN" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_AMAZON_ACC_JYH">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_AMAZON_ACC_JYH">
+        <MappingFragment StoreEntitySet="P_AMAZON_ACC_JYH">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="AMAZON_USER_ID" ColumnName="AMAZON_USER_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_ANKT_KK_RRK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_ANKT_KK_RRK">
+        <MappingFragment StoreEntitySet="P_ANKT_KK_RRK">
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="POINTHY_ID" ColumnName="POINTHY_ID" />
+          <ScalarProperty Name="HY_YM" ColumnName="HY_YM" />
+          <ScalarProperty Name="HY_KY" ColumnName="HY_KY" />
+          <ScalarProperty Name="ANKT_KK" ColumnName="ANKT_KK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_ANSN_SBS_KIIN_KIYK_HMTK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_ANSN_SBS_KIIN_KIYK_HMTK">
+        <MappingFragment StoreEntitySet="P_ANSN_SBS_KIIN_KIYK_HMTK">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="ANSN_SBS_KIYK_NO" ColumnName="ANSN_SBS_KIYK_NO" />
+          <ScalarProperty Name="ANSN_SBS_PLN" ColumnName="ANSN_SBS_PLN" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="HMTK_JYTI" ColumnName="HMTK_JYTI" />
+          <ScalarProperty Name="HMTK_DT" ColumnName="HMTK_DT" />
+          <ScalarProperty Name="SYOR_KBN" ColumnName="SYOR_KBN" />
+          <ScalarProperty Name="MSM_NO_SNK" ColumnName="MSM_NO_SNK" />
+          <ScalarProperty Name="HMTK_KIKY_DT" ColumnName="HMTK_KIKY_DT" />
+          <ScalarProperty Name="MSM_NO_KIYK" ColumnName="MSM_NO_KIYK" />
+          <ScalarProperty Name="ML_SYOR_FLG" ColumnName="ML_SYOR_FLG" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CD_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CD_MST">
+        <MappingFragment StoreEntitySet="P_CD_MST">
+          <ScalarProperty Name="CD_TYPE" ColumnName="CD_TYPE" />
+          <ScalarProperty Name="CD" ColumnName="CD" />
+          <ScalarProperty Name="HYJMI" ColumnName="HYJMI" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CN_HOYU_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CN_HOYU_MST">
+        <MappingFragment StoreEntitySet="P_CN_HOYU_MST">
+          <ScalarProperty Name="TURK_YMD" ColumnName="TURK_YMD" />
+          <ScalarProperty Name="SYO_NO" ColumnName="SYO_NO" />
+          <ScalarProperty Name="AR_CN" ColumnName="AR_CN" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CN_KKRT_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CN_KKRT_MST">
+        <MappingFragment StoreEntitySet="P_CN_KKRT_MST">
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="CNKK_RT" ColumnName="CNKK_RT" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CN_PINT_MSKM">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CN_PINT_MSKM">
+        <MappingFragment StoreEntitySet="P_CN_PINT_MSKM">
+          <ScalarProperty Name="SYHN_KUKN_UKTK_NO" ColumnName="SYHN_KUKN_UKTK_NO" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="MSM_YMD" ColumnName="MSM_YMD" />
+          <ScalarProperty Name="CYM_SU" ColumnName="CYM_SU" />
+          <ScalarProperty Name="SYU_PINT" ColumnName="SYU_PINT" />
+          <ScalarProperty Name="SCN_PINT" ColumnName="SCN_PINT" />
+          <ScalarProperty Name="CNKK_RT" ColumnName="CNKK_RT" />
+          <ScalarProperty Name="SMARP_TRN_ID" ColumnName="SMARP_TRN_ID" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CN_PINT_RNKI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CN_PINT_RNKI">
+        <MappingFragment StoreEntitySet="P_CN_PINT_RNKI">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="TYUTI_KNR_NO" ColumnName="TYUTI_KNR_NO" />
+          <ScalarProperty Name="MSM_YM" ColumnName="MSM_YM" />
+          <ScalarProperty Name="MSM_YMD" ColumnName="MSM_YMD" />
+          <ScalarProperty Name="MSM_KBN" ColumnName="MSM_KBN" />
+          <ScalarProperty Name="CNS_PINT" ColumnName="CNS_PINT" />
+          <ScalarProperty Name="SYR_CN" ColumnName="SYR_CN" />
+          <ScalarProperty Name="SKR_CO" ColumnName="SKR_CO" />
+          <ScalarProperty Name="CNRG_RT" ColumnName="CNRG_RT" />
+          <ScalarProperty Name="SYO_NO" ColumnName="SYO_NO" />
+          <ScalarProperty Name="SYO_NAIYO" ColumnName="SYO_NAIYO" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="SKNSR_ID" ColumnName="SKNSR_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CN_PINT_SYRN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CN_PINT_SYRN">
+        <MappingFragment StoreEntitySet="P_CN_PINT_SYRN">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SYU_KBN" ColumnName="SYU_KBN" />
+          <ScalarProperty Name="SYU_YM" ColumnName="SYU_YM" />
+          <ScalarProperty Name="SYTK_YMD" ColumnName="SYTK_YMD" />
+          <ScalarProperty Name="SCN_PINT" ColumnName="SCN_PINT" />
+          <ScalarProperty Name="SYO_NO" ColumnName="SYO_NO" />
+          <ScalarProperty Name="SYO_NAIYO" ColumnName="SYO_NAIYO" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CN_PINT_ZNDK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CN_PINT_ZNDK">
+        <MappingFragment StoreEntitySet="P_CN_PINT_ZNDK">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="MSM_YMD" ColumnName="MSM_YMD" />
+          <ScalarProperty Name="CN_PINT_ZNDK" ColumnName="CN_PINT_ZNDK" />
+          <ScalarProperty Name="LST_CNS_DT" ColumnName="LST_CNS_DT" />
+          <ScalarProperty Name="LST_ML_DT" ColumnName="LST_ML_DT" />
+          <ScalarProperty Name="EXP_CNS_DT" ColumnName="EXP_CNS_DT" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CN_RGRT_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CN_RGRT_MST">
+        <MappingFragment StoreEntitySet="P_CN_RGRT_MST">
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="CNRG_RT" ColumnName="CNRG_RT" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CN_SYO_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CN_SYO_MST">
+        <MappingFragment StoreEntitySet="P_CN_SYO_MST">
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="SYO_NO" ColumnName="SYO_NO" />
+          <ScalarProperty Name="CN_FILE_MI" ColumnName="CN_FILE_MI" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CN_TNRT_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CN_TNRT_MST">
+        <MappingFragment StoreEntitySet="P_CN_TNRT_MST">
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="CNTN_RT" ColumnName="CNTN_RT" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CO2_RGRT_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CO2_RGRT_MST">
+        <MappingFragment StoreEntitySet="P_CO2_RGRT_MST">
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="CNRG_RT" ColumnName="CNRG_RT" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CP_PINT_HYUZYU_SYRRK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CP_PINT_HYUZYU_SYRRK">
+        <MappingFragment StoreEntitySet="P_CP_PINT_HYUZYU_SYRRK">
+          <ScalarProperty Name="CP_ID" ColumnName="CP_ID" />
+          <ScalarProperty Name="CP_CNT" ColumnName="CP_CNT" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SYTK_YMD" ColumnName="SYTK_YMD" />
+          <ScalarProperty Name="SYTK_CNT" ColumnName="SYTK_CNT" />
+          <ScalarProperty Name="HYJ_TXT" ColumnName="HYJ_TXT" />
+          <ScalarProperty Name="PINT_SU" ColumnName="PINT_SU" />
+          <ScalarProperty Name="SIKYU_KNR_NO" ColumnName="SIKYU_KNR_NO" />
+          <ScalarProperty Name="TYUTI_KNR_NO" ColumnName="TYUTI_KNR_NO" />
+          <ScalarProperty Name="SYTK_SYBT" ColumnName="SYTK_SYBT" />
+          <ScalarProperty Name="HHYUZ_FLG" ColumnName="HHYUZ_FLG" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CP_PINT_TISY_KIIN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CP_PINT_TISY_KIIN">
+        <MappingFragment StoreEntitySet="P_CP_PINT_TISY_KIIN">
+          <ScalarProperty Name="CP_ID" ColumnName="CP_ID" />
+          <ScalarProperty Name="CP_CNT" ColumnName="CP_CNT" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="TSGS_HYU_FLG" ColumnName="TSGS_HYU_FLG" />
+          <ScalarProperty Name="TYK_YM" ColumnName="TYK_YM" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TKY_KKN" ColumnName="TKY_KKN" />
+          <ScalarProperty Name="HY_PINT_SU" ColumnName="HY_PINT_SU" />
+          <ScalarProperty Name="PINT_HY_YMD" ColumnName="PINT_HY_YMD" />
+          <ScalarProperty Name="HRY_FLG" ColumnName="HRY_FLG" />
+          <ScalarProperty Name="HRY_YMD" ColumnName="HRY_YMD" />
+          <ScalarProperty Name="TTY_SYRY_FLG" ColumnName="TTY_SYRY_FLG" />
+          <ScalarProperty Name="TTY_SYRY_YMD" ColumnName="TTY_SYRY_YMD" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CP_PINT_TISY_KIYK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CP_PINT_TISY_KIYK">
+        <MappingFragment StoreEntitySet="P_CP_PINT_TISY_KIYK">
+          <ScalarProperty Name="CP_ID" ColumnName="CP_ID" />
+          <ScalarProperty Name="CP_CNT" ColumnName="CP_CNT" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="KIYK_NO_CNT" ColumnName="KIYK_NO_CNT" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="KIYK_SYBT" ColumnName="KIYK_SYBT" />
+          <ScalarProperty Name="RYSYT" ColumnName="RYSYT" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_CP_PINT_ZNDK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_CP_PINT_ZNDK">
+        <MappingFragment StoreEntitySet="P_CP_PINT_ZNDK">
+          <ScalarProperty Name="CP_ID" ColumnName="CP_ID" />
+          <ScalarProperty Name="CP_CNT" ColumnName="CP_CNT" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="PINT_ZNDK" ColumnName="PINT_ZNDK" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_D_PINT_KIIN_NO_JYH">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_D_PINT_KIIN_NO_JYH">
+        <MappingFragment StoreEntitySet="P_D_PINT_KIIN_NO_JYH">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="D_PINT_KIIN_NO" ColumnName="D_PINT_KIIN_NO" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_DKJ_KMNT">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_DKJ_KMNT">
+        <MappingFragment StoreEntitySet="P_DKJ_KMNT">
+          <ScalarProperty Name="TKJH_KNR_NO" ColumnName="TKJH_KNR_NO" />
+          <ScalarProperty Name="KMNT_PC" ColumnName="KMNT_PC" />
+          <ScalarProperty Name="KMNT_SP" ColumnName="KMNT_SP" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_DNKI_MSKM_COOKIES_JYH">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_DNKI_MSKM_COOKIES_JYH">
+        <MappingFragment StoreEntitySet="P_DNKI_MSKM_COOKIES_JYH">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="ENTRY_DATE" ColumnName="ENTRY_DATE" />
+          <ScalarProperty Name="KI_KIIN_ID" ColumnName="KI_KIIN_ID" />
+          <ScalarProperty Name="COOKIES_ID" ColumnName="COOKIES_ID" />
+          <ScalarProperty Name="SEIKA_TURK_RESULT" ColumnName="SEIKA_TURK_RESULT" />
+          <ScalarProperty Name="SEIKA_TURK_STATUS_CODE" ColumnName="SEIKA_TURK_STATUS_CODE" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_DNKI_MSKM_SYOKAISYA_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_DNKI_MSKM_SYOKAISYA_MST">
+        <MappingFragment StoreEntitySet="P_DNKI_MSKM_SYOKAISYA_MST">
+          <ScalarProperty Name="DIV_CD" ColumnName="DIV_CD" />
+          <ScalarProperty Name="DIV_ME" ColumnName="DIV_ME" />
+          <ScalarProperty Name="HYZ_DIV_ME" ColumnName="HYZ_DIV_ME" />
+          <ScalarProperty Name="ZYOI_DIV_CD" ColumnName="ZYOI_DIV_CD" />
+          <ScalarProperty Name="SYOKAI_SYURUI_CD" ColumnName="SYOKAI_SYURUI_CD" />
+          <ScalarProperty Name="SYOKAISYA_SYOZOKU_CD" ColumnName="SYOKAISYA_SYOZOKU_CD" />
+          <ScalarProperty Name="KIS_LVL_CD" ColumnName="KIS_LVL_CD" />
+          <ScalarProperty Name="HYZ_FLG" ColumnName="HYZ_FLG" />
+          <ScalarProperty Name="HYZ_ORD" ColumnName="HYZ_ORD" />
+          <ScalarProperty Name="HYZ_GRP_ORD" ColumnName="HYZ_GRP_ORD" />
+          <ScalarProperty Name="HYZ_GRP_ME" ColumnName="HYZ_GRP_ME" />
+          <ScalarProperty Name="KAYI_DIV_NEED_FLG" ColumnName="KAYI_DIV_NEED_FLG" />
+          <ScalarProperty Name="TKY_KIS_DT" ColumnName="TKY_KIS_DT" />
+          <ScalarProperty Name="TKY_SYURYO_DT" ColumnName="TKY_SYURYO_DT" />
+          <ScalarProperty Name="TRKS_ID" ColumnName="TRKS_ID" />
+          <ScalarProperty Name="KSNS_ID" ColumnName="KSNS_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_DNKI_MSKM_UKTK_JYH">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_DNKI_MSKM_UKTK_JYH">
+        <MappingFragment StoreEntitySet="P_DNKI_MSKM_UKTK_JYH">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="ENTRY_DATE" ColumnName="ENTRY_DATE" />
+          <ScalarProperty Name="ENTRY_KIND" ColumnName="ENTRY_KIND" />
+          <ScalarProperty Name="NAME1" ColumnName="NAME1" />
+          <ScalarProperty Name="NAME2" ColumnName="NAME2" />
+          <ScalarProperty Name="KANA1" ColumnName="KANA1" />
+          <ScalarProperty Name="KANA2" ColumnName="KANA2" />
+          <ScalarProperty Name="TEL_KIND" ColumnName="TEL_KIND" />
+          <ScalarProperty Name="TEL" ColumnName="TEL" />
+          <ScalarProperty Name="ADDR_USE_POST" ColumnName="ADDR_USE_POST" />
+          <ScalarProperty Name="ADDR_USE1" ColumnName="ADDR_USE1" />
+          <ScalarProperty Name="ADDR_USE2" ColumnName="ADDR_USE2" />
+          <ScalarProperty Name="BUILDING_USE" ColumnName="BUILDING_USE" />
+          <ScalarProperty Name="CONTRACT_POWER_COMP" ColumnName="CONTRACT_POWER_COMP" />
+          <ScalarProperty Name="CONTRACT_POWER_COMP2" ColumnName="CONTRACT_POWER_COMP2" />
+          <ScalarProperty Name="CONTRACT_POWER_NUM" ColumnName="CONTRACT_POWER_NUM" />
+          <ScalarProperty Name="SPOT_NUM" ColumnName="SPOT_NUM" />
+          <ScalarProperty Name="CONTRACT_NAME" ColumnName="CONTRACT_NAME" />
+          <ScalarProperty Name="CONTRACT_KANA" ColumnName="CONTRACT_KANA" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="CONTRACT_GAS_KIND" ColumnName="CONTRACT_GAS_KIND" />
+          <ScalarProperty Name="CONTRACT_GAS1" ColumnName="CONTRACT_GAS1" />
+          <ScalarProperty Name="CONTRACT_GAS2" ColumnName="CONTRACT_GAS2" />
+          <ScalarProperty Name="CONTRACT_GAS_NUM" ColumnName="CONTRACT_GAS_NUM" />
+          <ScalarProperty Name="PLAN" ColumnName="PLAN" />
+          <ScalarProperty Name="PLAN1_B_UNIT" ColumnName="PLAN1_B_UNIT" />
+          <ScalarProperty Name="PLAN1_C_UNIT" ColumnName="PLAN1_C_UNIT" />
+          <ScalarProperty Name="PLAN1_LOW_UNIT" ColumnName="PLAN1_LOW_UNIT" />
+          <ScalarProperty Name="PLAN1_S1_UNIT" ColumnName="PLAN1_S1_UNIT" />
+          <ScalarProperty Name="PLAN1_S2_UNIT" ColumnName="PLAN1_S2_UNIT" />
+          <ScalarProperty Name="PLAN_DISC1" ColumnName="PLAN_DISC1" />
+          <ScalarProperty Name="PLAN_DISC2" ColumnName="PLAN_DISC2" />
+          <ScalarProperty Name="PLAN_SIMPLE" ColumnName="PLAN_SIMPLE" />
+          <ScalarProperty Name="PLAN_STATE_A" ColumnName="PLAN_STATE_A" />
+          <ScalarProperty Name="PLAN_STATE_S1" ColumnName="PLAN_STATE_S1" />
+          <ScalarProperty Name="START_REQ_DATE" ColumnName="START_REQ_DATE" />
+          <ScalarProperty Name="PAY" ColumnName="PAY" />
+          <ScalarProperty Name="PAY_REQ" ColumnName="PAY_REQ" />
+          <ScalarProperty Name="DEPUTY_NAME1" ColumnName="DEPUTY_NAME1" />
+          <ScalarProperty Name="DEPUTY_NAME2" ColumnName="DEPUTY_NAME2" />
+          <ScalarProperty Name="DEPUTY_KANA1" ColumnName="DEPUTY_KANA1" />
+          <ScalarProperty Name="DEPUTY_KANA2" ColumnName="DEPUTY_KANA2" />
+          <ScalarProperty Name="DEPUTY_DEP" ColumnName="DEPUTY_DEP" />
+          <ScalarProperty Name="DEPUTY_STAFFS_NAME1" ColumnName="DEPUTY_STAFFS_NAME1" />
+          <ScalarProperty Name="DEPUTY_STAFFS_NAME2" ColumnName="DEPUTY_STAFFS_NAME2" />
+          <ScalarProperty Name="DEPUTY_TEL" ColumnName="DEPUTY_TEL" />
+          <ScalarProperty Name="DEPUTY_CONN" ColumnName="DEPUTY_CONN" />
+          <ScalarProperty Name="DEPUTY_CONN_OTHER" ColumnName="DEPUTY_CONN_OTHER" />
+          <ScalarProperty Name="INTRODUCE" ColumnName="INTRODUCE" />
+          <ScalarProperty Name="DIRECT" ColumnName="DIRECT" />
+          <ScalarProperty Name="DIRECT_CODE" ColumnName="DIRECT_CODE" />
+          <ScalarProperty Name="EXTERNAL" ColumnName="EXTERNAL" />
+          <ScalarProperty Name="EXTERNAL_CODE" ColumnName="EXTERNAL_CODE" />
+          <ScalarProperty Name="TOHO_PERSON" ColumnName="TOHO_PERSON" />
+          <ScalarProperty Name="ENTRY_KIND1" ColumnName="ENTRY_KIND1" />
+          <ScalarProperty Name="KNPN_CD" ColumnName="KNPN_CD" />
+          <ScalarProperty Name="PLAN_D" ColumnName="PLAN_D" />
+          <ScalarProperty Name="PLAN1_D1_UNIT" ColumnName="PLAN1_D1_UNIT" />
+          <ScalarProperty Name="PLAN1_D2_UNIT" ColumnName="PLAN1_D2_UNIT" />
+          <ScalarProperty Name="PLAN_STATE_D1" ColumnName="PLAN_STATE_D1" />
+          <ScalarProperty Name="KIYKSYO_NO" ColumnName="KIYKSYO_NO" />
+          <ScalarProperty Name="DNK_WEBMS_MUSKM_FLG" ColumnName="DNK_WEBMS_MUSKM_FLG" />
+          <ScalarProperty Name="KKNN_ZM_FLG" ColumnName="KKNN_ZM_FLG" />
+          <ScalarProperty Name="STATE" ColumnName="STATE" />
+          <ScalarProperty Name="SKNSR_ID" ColumnName="SKNSR_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="PLAN_STATE_C" ColumnName="PLAN_STATE_C" />
+          <ScalarProperty Name="PLAN_STATE_LOW" ColumnName="PLAN_STATE_LOW" />
+          <ScalarProperty Name="PLAN_STATE_S2" ColumnName="PLAN_STATE_S2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_EIGYO_BI_M">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_EIGYO_BI_M">
+        <MappingFragment StoreEntitySet="P_EIGYO_BI_M">
+          <ScalarProperty Name="YMD" ColumnName="YMD" />
+          <ScalarProperty Name="EIGYO_BI_FLG" ColumnName="EIGYO_BI_FLG" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_ENTR_CD_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_ENTR_CD_MST">
+        <MappingFragment StoreEntitySet="P_ENTR_CD_MST">
+          <ScalarProperty Name="EVNT_ID" ColumnName="EVNT_ID" />
+          <ScalarProperty Name="KIJ_ID" ColumnName="KIJ_ID" />
+          <ScalarProperty Name="ENTR_CD" ColumnName="ENTR_CD" />
+          <ScalarProperty Name="TRKS_ID" ColumnName="TRKS_ID" />
+          <ScalarProperty Name="KSNS_ID" ColumnName="KSNS_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="HY_PINT_SU" ColumnName="HY_PINT_SU" />
+          <ScalarProperty Name="YUKUKGN_YMD" ColumnName="YUKUKGN_YMD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_ENTR_CD_TRKRRK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_ENTR_CD_TRKRRK">
+        <MappingFragment StoreEntitySet="P_ENTR_CD_TRKRRK">
+          <ScalarProperty Name="SKNSR_ID" ColumnName="SKNSR_ID" />
+          <ScalarProperty Name="EVNT_ID" ColumnName="EVNT_ID" />
+          <ScalarProperty Name="KIJ_ID" ColumnName="KIJ_ID" />
+          <ScalarProperty Name="ENTR_CD" ColumnName="ENTR_CD" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTN" ColumnName="TURK_TIMSTN" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_GIFT_CAMPAIGN_KNRI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_GIFT_CAMPAIGN_KNRI">
+        <MappingFragment StoreEntitySet="P_GIFT_CAMPAIGN_KNRI">
+          <ScalarProperty Name="CP_ID" ColumnName="CP_ID" />
+          <ScalarProperty Name="SHR_KBN" ColumnName="SHR_KBN" />
+          <ScalarProperty Name="ML_YTI_SENT_YMD" ColumnName="ML_YTI_SENT_YMD" />
+          <ScalarProperty Name="CPK_YMD" ColumnName="CPK_YMD" />
+          <ScalarProperty Name="CPS_YMD" ColumnName="CPS_YMD" />
+          <ScalarProperty Name="ML_HISN_FLG" ColumnName="ML_HISN_FLG" />
+          <ScalarProperty Name="CP_SBS" ColumnName="CP_SBS" />
+          <ScalarProperty Name="AKT_JIS_FLG" ColumnName="AKT_JIS_FLG" />
+          <ScalarProperty Name="AKT_JIS_SBS" ColumnName="AKT_JIS_SBS" />
+          <ScalarProperty Name="MOV_JIS_FLG" ColumnName="MOV_JIS_FLG" />
+          <ScalarProperty Name="MOV_JIS_SBS" ColumnName="MOV_JIS_SBS" />
+          <ScalarProperty Name="CP_CONTENT" ColumnName="CP_CONTENT" />
+          <ScalarProperty Name="CP_CNT_PARAM" ColumnName="CP_CNT_PARAM" />
+          <ScalarProperty Name="ACC_TOKEN" ColumnName="ACC_TOKEN" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_GIFT_COUPON_KNRI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_GIFT_COUPON_KNRI">
+        <MappingFragment StoreEntitySet="P_GIFT_COUPON_KNRI">
+          <ScalarProperty Name="CPN_ID" ColumnName="CPN_ID" />
+          <ScalarProperty Name="CP_ID" ColumnName="CP_ID" />
+          <ScalarProperty Name="GF_CD_HAKO" ColumnName="GF_CD_HAKO" />
+          <ScalarProperty Name="WINN_MAX_NUM" ColumnName="WINN_MAX_NUM" />
+          <ScalarProperty Name="ODDS" ColumnName="ODDS" />
+          <ScalarProperty Name="CPN_CONTENT" ColumnName="CPN_CONTENT" />
+          <ScalarProperty Name="HYOJI_KGN" ColumnName="HYOJI_KGN" />
+          <ScalarProperty Name="WINN_NUM" ColumnName="WINN_NUM" />
+          <ScalarProperty Name="RKSN_FLG" ColumnName="RKSN_FLG" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_GIFT_COUPON_LOT_KIIN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_GIFT_COUPON_LOT_KIIN">
+        <MappingFragment StoreEntitySet="P_GIFT_COUPON_LOT_KIIN">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="CP_ID" ColumnName="CP_ID" />
+          <ScalarProperty Name="ML" ColumnName="ML" />
+          <ScalarProperty Name="ML_SB" ColumnName="ML_SB" />
+          <ScalarProperty Name="LOTMAX_CNT" ColumnName="LOTMAX_CNT" />
+          <ScalarProperty Name="LOTZAN_CNT" ColumnName="LOTZAN_CNT" />
+          <ScalarProperty Name="AKTSTS_FLG" ColumnName="AKTSTS_FLG" />
+          <ScalarProperty Name="MOVIESTS_FLG" ColumnName="MOVIESTS_FLG" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_GIFT_COUPON_TUSN_KIIN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_GIFT_COUPON_TUSN_KIIN">
+        <MappingFragment StoreEntitySet="P_GIFT_COUPON_TUSN_KIIN">
+          <ScalarProperty Name="CP_ID" ColumnName="CP_ID" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="CPN_ID" ColumnName="CPN_ID" />
+          <ScalarProperty Name="CPN_PG_URL" ColumnName="CPN_PG_URL" />
+          <ScalarProperty Name="YNK_KI" ColumnName="YNK_KI" />
+          <ScalarProperty Name="TKT_TIP" ColumnName="TKT_TIP" />
+          <ScalarProperty Name="YUKU_KGN" ColumnName="YUKU_KGN" />
+          <ScalarProperty Name="SNTKKGN_KIS_YMD" ColumnName="SNTKKGN_KIS_YMD" />
+          <ScalarProperty Name="SNTKKGN_SYRY_YMD" ColumnName="SNTKKGN_SYRY_YMD" />
+          <ScalarProperty Name="TUSN_TIMSTNP" ColumnName="TUSN_TIMSTNP" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_IDPWD_ZDNRK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_IDPWD_ZDNRK">
+        <MappingFragment StoreEntitySet="P_IDPWD_ZDNRK">
+          <ScalarProperty Name="TUKN_ID" ColumnName="TUKN_ID" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="YUKUKGN" ColumnName="YUKUKGN" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KIIN_KHN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KIIN_KHN">
+        <MappingFragment StoreEntitySet="P_KIIN_KHN">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="KIIN_SI" ColumnName="KIIN_SI" />
+          <ScalarProperty Name="KIIN_MI" ColumnName="KIIN_MI" />
+          <ScalarProperty Name="KIIN_SI_KN" ColumnName="KIIN_SI_KN" />
+          <ScalarProperty Name="KIIN_MI_KN" ColumnName="KIIN_MI_KN" />
+          <ScalarProperty Name="KIIN_ML" ColumnName="KIIN_ML" />
+          <ScalarProperty Name="KIIN_ML_SB" ColumnName="KIIN_ML_SB" />
+          <ScalarProperty Name="SIBT" ColumnName="SIBT" />
+          <ScalarProperty Name="SINGP_Y" ColumnName="SINGP_Y" />
+          <ScalarProperty Name="SINGP_M" ColumnName="SINGP_M" />
+          <ScalarProperty Name="SINGP_D" ColumnName="SINGP_D" />
+          <ScalarProperty Name="TEL1" ColumnName="TEL1" />
+          <ScalarProperty Name="TEL2" ColumnName="TEL2" />
+          <ScalarProperty Name="ZYUSY_YUBN_NO" ColumnName="ZYUSY_YUBN_NO" />
+          <ScalarProperty Name="ZYUSY_TDFK_CD" ColumnName="ZYUSY_TDFK_CD" />
+          <ScalarProperty Name="ZYUSY_SKTS" ColumnName="ZYUSY_SKTS" />
+          <ScalarProperty Name="ZYUSY_SYBNT" ColumnName="ZYUSY_SYBNT" />
+          <ScalarProperty Name="ZYUSY_BLMN" ColumnName="ZYUSY_BLMN" />
+          <ScalarProperty Name="RANK" ColumnName="RANK" />
+          <ScalarProperty Name="SMARP_KIIN_CD" ColumnName="SMARP_KIIN_CD" />
+          <ScalarProperty Name="SECURTY_CD" ColumnName="SECURTY_CD" />
+          <ScalarProperty Name="PWD_SISTI_IRY_TIMSTNP" ColumnName="PWD_SISTI_IRY_TIMSTNP" />
+          <ScalarProperty Name="YUT_KBN" ColumnName="YUT_KBN" />
+          <ScalarProperty Name="YUT_KBN_DT" ColumnName="YUT_KBN_DT" />
+          <ScalarProperty Name="KMKNSN_HIS_FLG" ColumnName="KMKNSN_HIS_FLG" />
+          <ScalarProperty Name="KMKNSN_HIS_FLG_TIMSTNP" ColumnName="KMKNSN_HIS_FLG_TIMSTNP" />
+          <ScalarProperty Name="KIIN_JYTI" ColumnName="KIIN_JYTI" />
+          <ScalarProperty Name="PINT_KIIN_JYTI" ColumnName="PINT_KIIN_JYTI" />
+          <ScalarProperty Name="LIGHT_KIIN_TURK_DT" ColumnName="LIGHT_KIIN_TURK_DT" />
+          <ScalarProperty Name="HON_KIIN_TURK_DT" ColumnName="HON_KIIN_TURK_DT" />
+          <ScalarProperty Name="PINT_KIIN_NYKI_DT" ColumnName="PINT_KIIN_NYKI_DT" />
+          <ScalarProperty Name="PINT_HYKH_FLG" ColumnName="PINT_HYKH_FLG" />
+          <ScalarProperty Name="PINT_HYKH_FLG_TIMSTNP" ColumnName="PINT_HYKH_FLG_TIMSTNP" />
+          <ScalarProperty Name="TIKI_FLG" ColumnName="TIKI_FLG" />
+          <ScalarProperty Name="TIKI_FLG_TIMSTNP" ColumnName="TIKI_FLG_TIMSTNP" />
+          <ScalarProperty Name="RUN_MODE" ColumnName="RUN_MODE" />
+          <ScalarProperty Name="YB1" ColumnName="YB1" />
+          <ScalarProperty Name="YB2" ColumnName="YB2" />
+          <ScalarProperty Name="YB3" ColumnName="YB3" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KIIN_KIYK_HMTK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KIIN_KIYK_HMTK">
+        <MappingFragment StoreEntitySet="P_KIIN_KIYK_HMTK">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="KIYK_KISY_CD" ColumnName="KIYK_KISY_CD" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="SYB_ZYUSY" ColumnName="SYB_ZYUSY" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="HMTK_CNT" ColumnName="HMTK_CNT" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="KIYK_SYBT" ColumnName="KIYK_SYBT" />
+          <ScalarProperty Name="MN_KIYK" ColumnName="MN_KIYK" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="SKTI_NNSY_CNT" ColumnName="SKTI_NNSY_CNT" />
+          <ScalarProperty Name="KIYK_SYRY_YMD" ColumnName="KIYK_SYRY_YMD" />
+          <ScalarProperty Name="HMTK_JYTI" ColumnName="HMTK_JYTI" />
+          <ScalarProperty Name="HMTK_DT" ColumnName="HMTK_DT" />
+          <ScalarProperty Name="HMTK_KIJY_DT" ColumnName="HMTK_KIJY_DT" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KIIN_KIYK_HMTK_BIDN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KIIN_KIYK_HMTK_BIDN">
+        <MappingFragment StoreEntitySet="P_KIIN_KIYK_HMTK_BIDN">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="JYDN_CHTN_TKTI_NO" ColumnName="JYDN_CHTN_TKTI_NO" />
+          <ScalarProperty Name="HMTK_JYTI" ColumnName="HMTK_JYTI" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KIIN_KIYK_HMTK_BIDN_20191120">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KIIN_KIYK_HMTK_BIDN_20191120">
+        <MappingFragment StoreEntitySet="P_KIIN_KIYK_HMTK_BIDN_20191120">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="JYDN_CHTN_TKTI_NO" ColumnName="JYDN_CHTN_TKTI_NO" />
+          <ScalarProperty Name="HMTK_JYTI" ColumnName="HMTK_JYTI" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KIIN_KIYK_HMTK_OLD">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KIIN_KIYK_HMTK_OLD">
+        <MappingFragment StoreEntitySet="P_KIIN_KIYK_HMTK_OLD">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="KIYK_KISY_CD" ColumnName="KIYK_KISY_CD" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="SYB_ZYUSY" ColumnName="SYB_ZYUSY" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="HMTK_CNT" ColumnName="HMTK_CNT" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="KIYK_SYBT" ColumnName="KIYK_SYBT" />
+          <ScalarProperty Name="MN_KIYK" ColumnName="MN_KIYK" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="KIYK_SYRY_YMD" ColumnName="KIYK_SYRY_YMD" />
+          <ScalarProperty Name="HMTK_JYTI" ColumnName="HMTK_JYTI" />
+          <ScalarProperty Name="HMTK_DT" ColumnName="HMTK_DT" />
+          <ScalarProperty Name="HMTK_KIJY_DT" ColumnName="HMTK_KIJY_DT" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KIIN_UKTK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KIIN_UKTK">
+        <MappingFragment StoreEntitySet="P_KIIN_UKTK">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="UKTKSY_ID" ColumnName="UKTKSY_ID" />
+          <ScalarProperty Name="UKTKSY_SI" ColumnName="UKTKSY_SI" />
+          <ScalarProperty Name="UKTKSY_MI" ColumnName="UKTKSY_MI" />
+          <ScalarProperty Name="SYZK1" ColumnName="SYZK1" />
+          <ScalarProperty Name="SYZK2" ColumnName="SYZK2" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="HNNN_KKNN_KBN" ColumnName="HNNN_KKNN_KBN" />
+          <ScalarProperty Name="UKTKSY_MM" ColumnName="UKTKSY_MM" />
+          <ScalarProperty Name="DNK_WEBMS_MUSKM_FLG" ColumnName="DNK_WEBMS_MUSKM_FLG" />
+          <ScalarProperty Name="NNSY_ZM_FLG" ColumnName="NNSY_ZM_FLG" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KIIN_ZYUHU_HNKU_RRK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KIIN_ZYUHU_HNKU_RRK">
+        <MappingFragment StoreEntitySet="P_KIIN_ZYUHU_HNKU_RRK">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="HNKU_YMD" ColumnName="HNKU_YMD" />
+          <ScalarProperty Name="KIIN_SI" ColumnName="KIIN_SI" />
+          <ScalarProperty Name="KIIN_MI" ColumnName="KIIN_MI" />
+          <ScalarProperty Name="KIIN_SI_KN" ColumnName="KIIN_SI_KN" />
+          <ScalarProperty Name="KIIN_MI_KN" ColumnName="KIIN_MI_KN" />
+          <ScalarProperty Name="KIIN_ML" ColumnName="KIIN_ML" />
+          <ScalarProperty Name="KIIN_ML_SB" ColumnName="KIIN_ML_SB" />
+          <ScalarProperty Name="SIBT" ColumnName="SIBT" />
+          <ScalarProperty Name="TEL1" ColumnName="TEL1" />
+          <ScalarProperty Name="TEL2" ColumnName="TEL2" />
+          <ScalarProperty Name="ZYUSY_YUBN_NO" ColumnName="ZYUSY_YUBN_NO" />
+          <ScalarProperty Name="ZYUSY_TDFK_CD" ColumnName="ZYUSY_TDFK_CD" />
+          <ScalarProperty Name="ZYUSY_SKTS" ColumnName="ZYUSY_SKTS" />
+          <ScalarProperty Name="ZYUSY_SYBNT" ColumnName="ZYUSY_SYBNT" />
+          <ScalarProperty Name="ZYUSY_BLMN" ColumnName="ZYUSY_BLMN" />
+          <ScalarProperty Name="YUT_KBN" ColumnName="YUT_KBN" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KNKYU_HNSU_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KNKYU_HNSU_MST">
+        <MappingFragment StoreEntitySet="P_KNKYU_HNSU_MST">
+          <ScalarProperty Name="KNKYU_HNSU_CD" ColumnName="KNKYU_HNSU_CD" />
+          <ScalarProperty Name="HNSU_TI" ColumnName="HNSU_TI" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KNRSY_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KNRSY_MST">
+        <MappingFragment StoreEntitySet="P_KNRSY_MST">
+          <ScalarProperty Name="KNRSY_ID" ColumnName="KNRSY_ID" />
+          <ScalarProperty Name="KNRSY_NM" ColumnName="KNRSY_NM" />
+          <ScalarProperty Name="KNGN_KAIIN" ColumnName="KNGN_KAIIN" />
+          <ScalarProperty Name="KNGN_POINT" ColumnName="KNGN_POINT" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KNRSY_MTM_SYR_HMTK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KNRSY_MTM_SYR_HMTK">
+        <MappingFragment StoreEntitySet="P_KNRSY_MTM_SYR_HMTK">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="KIYK_KISY_CD" ColumnName="KIYK_KISY_CD" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="HMTK_CNT" ColumnName="HMTK_CNT" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="KNRSY_MTM_SYR_HMTK_DT" ColumnName="KNRSY_MTM_SYR_HMTK_DT" />
+          <ScalarProperty Name="KNRSY_MTM_SYR_HMTK_KIJY_DT" ColumnName="KNRSY_MTM_SYR_HMTK_KIJY_DT" />
+          <ScalarProperty Name="KNRSY_MTM_SYR_HMTK_KIJY_FLG" ColumnName="KNRSY_MTM_SYR_HMTK_KIJY_FLG" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_KR_KIIN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_KR_KIIN">
+        <MappingFragment StoreEntitySet="P_KR_KIIN">
+          <ScalarProperty Name="KRKIIN_ID" ColumnName="KRKIIN_ID" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="SEC_CD" ColumnName="SEC_CD" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_LINE_RNKI_JYH">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_LINE_RNKI_JYH">
+        <MappingFragment StoreEntitySet="P_LINE_RNKI_JYH">
+          <ScalarProperty Name="SKNSR_ID" ColumnName="SKNSR_ID" />
+          <ScalarProperty Name="YS_ID" ColumnName="YS_ID" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="RNKI_ZYTI" ColumnName="RNKI_ZYTI" />
+          <ScalarProperty Name="RNKI_TIMSTNP" ColumnName="RNKI_TIMSTNP" />
+          <ScalarProperty Name="RNKI_KIJY_TIMSTNP" ColumnName="RNKI_KIJY_TIMSTNP" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_ML_HISN_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_ML_HISN_MST">
+        <MappingFragment StoreEntitySet="P_ML_HISN_MST">
+          <ScalarProperty Name="MLMG_ID" ColumnName="MLMG_ID" />
+          <ScalarProperty Name="MLMG_NM" ColumnName="MLMG_NM" />
+          <ScalarProperty Name="FLG_DEFAULT" ColumnName="FLG_DEFAULT" />
+          <ScalarProperty Name="HYZ_ORD" ColumnName="HYZ_ORD" />
+          <ScalarProperty Name="TKY_KIS_DT" ColumnName="TKY_KIS_DT" />
+          <ScalarProperty Name="TKY_SYURYO_DT" ColumnName="TKY_SYURYO_DT" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_MRMG_HISN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_MRMG_HISN">
+        <MappingFragment StoreEntitySet="P_MRMG_HISN">
+          <ScalarProperty Name="MLMG_ID" ColumnName="MLMG_ID" />
+          <ScalarProperty Name="MLMG_NM" ColumnName="MLMG_NM" />
+          <ScalarProperty Name="MLMG_HISN_FLG" ColumnName="MLMG_HISN_FLG" />
+          <ScalarProperty Name="MLMG_HISN_SB_FLG" ColumnName="MLMG_HISN_SB_FLG" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_MTURK_KIIN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_MTURK_KIIN">
+        <MappingFragment StoreEntitySet="P_MTURK_KIIN">
+          <ScalarProperty Name="MTURK_KIIN_ID" ColumnName="MTURK_KIIN_ID" />
+          <ScalarProperty Name="MTURK_PASSWORD" ColumnName="MTURK_PASSWORD" />
+          <ScalarProperty Name="SYB_NO" ColumnName="SYB_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="SHH_KBN" ColumnName="SHH_KBN" />
+          <ScalarProperty Name="KIYKSY_NO" ColumnName="KIYKSY_NO" />
+          <ScalarProperty Name="SMI" ColumnName="SMI" />
+          <ScalarProperty Name="YUBN_NO" ColumnName="YUBN_NO" />
+          <ScalarProperty Name="GSK_CD" ColumnName="GSK_CD" />
+          <ScalarProperty Name="GSK_MS" ColumnName="GSK_MS" />
+          <ScalarProperty Name="ZYUSY" ColumnName="ZYUSY" />
+          <ScalarProperty Name="TMMTM" ColumnName="TMMTM" />
+          <ScalarProperty Name="TMGS" ColumnName="TMGS" />
+          <ScalarProperty Name="YUTO_KB" ColumnName="YUTO_KB" />
+          <ScalarProperty Name="MTURK_KIIN_HKUKBN" ColumnName="MTURK_KIIN_HKUKBN" />
+          <ScalarProperty Name="CSV_SYTRYK_FLG" ColumnName="CSV_SYTRYK_FLG" />
+          <ScalarProperty Name="YUKUKGN" ColumnName="YUKUKGN" />
+          <ScalarProperty Name="TURK_ZYUTI_FLG" ColumnName="TURK_ZYUTI_FLG" />
+          <ScalarProperty Name="TURK_KNRYU_YMD" ColumnName="TURK_KNRYU_YMD" />
+          <ScalarProperty Name="TURK_KIIN_ID" ColumnName="TURK_KIIN_ID" />
+          <ScalarProperty Name="TURK_KBN" ColumnName="TURK_KBN" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_MTURK_KIIN_YYK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_MTURK_KIIN_YYK">
+        <MappingFragment StoreEntitySet="P_MTURK_KIIN_YYK">
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="ZKB" ColumnName="ZKB" />
+          <ScalarProperty Name="MTURK_KIIN_HKUKBN" ColumnName="MTURK_KIIN_HKUKBN" />
+          <ScalarProperty Name="HKZM_KBN" ColumnName="HKZM_KBN" />
+          <ScalarProperty Name="MHK_RY" ColumnName="MHK_RY" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="MSKM_TIMSTNP" ColumnName="MSKM_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_NNSY_CD_JYOHO">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_NNSY_CD_JYOHO">
+        <MappingFragment StoreEntitySet="P_NNSY_CD_JYOHO">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="HK_TIMSTNP" ColumnName="HK_TIMSTNP" />
+          <ScalarProperty Name="NNSY_CLS" ColumnName="NNSY_CLS" />
+          <ScalarProperty Name="NNSY_CD" ColumnName="NNSY_CD" />
+          <ScalarProperty Name="NNSY_ZM_FLG" ColumnName="NNSY_ZM_FLG" />
+          <ScalarProperty Name="NNSY_TIMSTNP" ColumnName="NNSY_TIMSTNP" />
+          <ScalarProperty Name="KIIN_ML" ColumnName="KIIN_ML" />
+          <ScalarProperty Name="KIIN_ML_SB" ColumnName="KIIN_ML_SB" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="YUSUSK" ColumnName="YUSUSK" />
+          <ScalarProperty Name="YUSUSK_YUBN" ColumnName="YUSUSK_YUBN" />
+          <ScalarProperty Name="YUSUSK_JYSY" ColumnName="YUSUSK_JYSY" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_NNSY_MISS">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_NNSY_MISS">
+        <MappingFragment StoreEntitySet="P_NNSY_MISS">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="NNSY_MISS_CD" ColumnName="NNSY_MISS_CD" />
+          <ScalarProperty Name="MISS_CNT" ColumnName="MISS_CNT" />
+          <ScalarProperty Name="SISYU_MISS_TIMSTNP" ColumnName="SISYU_MISS_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_NNSY_MISS_KNRSY">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_NNSY_MISS_KNRSY">
+        <MappingFragment StoreEntitySet="P_NNSY_MISS_KNRSY">
+          <ScalarProperty Name="KNRSY_ID" ColumnName="KNRSY_ID" />
+          <ScalarProperty Name="NNSY_MISS_CD" ColumnName="NNSY_MISS_CD" />
+          <ScalarProperty Name="MISS_CNT" ColumnName="MISS_CNT" />
+          <ScalarProperty Name="SISYU_MISS_TIMSTNP" ColumnName="SISYU_MISS_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_NNSYNNK_KIINHMTK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_NNSYNNK_KIINHMTK">
+        <MappingFragment StoreEntitySet="P_NNSYNNK_KIINHMTK">
+          <ScalarProperty Name="KIIN_SKBT_ID" ColumnName="KIIN_SKBT_ID" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_NYKI_RYU">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_NYKI_RYU">
+        <MappingFragment StoreEntitySet="P_NYKI_RYU">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="NYKI_DT" ColumnName="NYKI_DT" />
+          <ScalarProperty Name="NYKI_RYU" ColumnName="NYKI_RYU" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_OSRS_INFO">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_OSRS_INFO">
+        <MappingFragment StoreEntitySet="P_OSRS_INFO">
+          <ScalarProperty Name="OSRS_ID" ColumnName="OSRS_ID" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="OSRS_KBN" ColumnName="OSRS_KBN" />
+          <ScalarProperty Name="OSRS_TYK_YMD" ColumnName="OSRS_TYK_YMD" />
+          <ScalarProperty Name="OSRS_TYS_YMD" ColumnName="OSRS_TYS_YMD" />
+          <ScalarProperty Name="OSRS_HJSR_YMD" ColumnName="OSRS_HJSR_YMD" />
+          <ScalarProperty Name="OSRS_TITLE" ColumnName="OSRS_TITLE" />
+          <ScalarProperty Name="OSRS_TEMPLATE" ColumnName="OSRS_TEMPLATE" />
+          <ScalarProperty Name="OSRS_PARAMS" ColumnName="OSRS_PARAMS" />
+          <ScalarProperty Name="ML_SR_FLG" ColumnName="ML_SR_FLG" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_OSRS_KBN_GRUP_KNR">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_OSRS_KBN_GRUP_KNR">
+        <MappingFragment StoreEntitySet="P_OSRS_KBN_GRUP_KNR">
+          <ScalarProperty Name="OSRS_KBN_GRUP_ID" ColumnName="OSRS_KBN_GRUP_ID" />
+          <ScalarProperty Name="OSRS_KBN_GRUP" ColumnName="OSRS_KBN_GRUP" />
+          <ScalarProperty Name="DIKBN" ColumnName="DIKBN" />
+          <ScalarProperty Name="BKU" ColumnName="BKU" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_OSRS_KDK_KNR">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_OSRS_KDK_KNR">
+        <MappingFragment StoreEntitySet="P_OSRS_KDK_KNR">
+          <ScalarProperty Name="OSRS_ID" ColumnName="OSRS_ID" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_PAYPAY_ACC_JYH">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_PAYPAY_ACC_JYH">
+        <MappingFragment StoreEntitySet="P_PAYPAY_ACC_JYH">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="PAYPAY_USER_ID" ColumnName="PAYPAY_USER_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_PINT_HYRRK_KIIN">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_PINT_HYRRK_KIIN">
+        <MappingFragment StoreEntitySet="P_PINT_HYRRK_KIIN">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="POINTHY_ID" ColumnName="POINTHY_ID" />
+          <ScalarProperty Name="HY_YM" ColumnName="HY_YM" />
+          <ScalarProperty Name="HY_KY" ColumnName="HY_KY" />
+          <ScalarProperty Name="HY_POINT_CNT" ColumnName="HY_POINT_CNT" />
+          <ScalarProperty Name="HY_TIMSTNP" ColumnName="HY_TIMSTNP" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="SKNSR_ID" ColumnName="SKNSR_ID" />
+          <ScalarProperty Name="SHOP_TRAN_ID" ColumnName="SHOP_TRAN_ID" />
+          <ScalarProperty Name="FORM_ENTRY_ID" ColumnName="FORM_ENTRY_ID" />
+          <ScalarProperty Name="VF_STATUS" ColumnName="VF_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_PINT_HYRRK_KIYKTNI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_PINT_HYRRK_KIYKTNI">
+        <MappingFragment StoreEntitySet="P_PINT_HYRRK_KIYKTNI">
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="POINTHY_ID" ColumnName="POINTHY_ID" />
+          <ScalarProperty Name="HY_YM" ColumnName="HY_YM" />
+          <ScalarProperty Name="HY_KY" ColumnName="HY_KY" />
+          <ScalarProperty Name="HY_POINT_CNT" ColumnName="HY_POINT_CNT" />
+          <ScalarProperty Name="HY_TIMSTNP" ColumnName="HY_TIMSTNP" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_PINT_IKTSHY_YMKE">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_PINT_IKTSHY_YMKE">
+        <MappingFragment StoreEntitySet="P_PINT_IKTSHY_YMKE">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="TRHK_SYR_YMD" ColumnName="TRHK_SYR_YMD" />
+          <ScalarProperty Name="TRHK_SYR_HM" ColumnName="TRHK_SYR_HM" />
+          <ScalarProperty Name="PINT_SYBT_CD" ColumnName="PINT_SYBT_CD" />
+          <ScalarProperty Name="BKU" ColumnName="BKU" />
+          <ScalarProperty Name="YMKE_HYJI_MI" ColumnName="YMKE_HYJI_MI" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_PINT_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_PINT_MST">
+        <MappingFragment StoreEntitySet="P_PINT_MST">
+          <ScalarProperty Name="PINT_HY_ID" ColumnName="PINT_HY_ID" />
+          <ScalarProperty Name="PINT_SYBT_CD" ColumnName="PINT_SYBT_CD" />
+          <ScalarProperty Name="PINT_HY_NM" ColumnName="PINT_HY_NM" />
+          <ScalarProperty Name="HY_PINT_SU" ColumnName="HY_PINT_SU" />
+          <ScalarProperty Name="HY_TYPE" ColumnName="HY_TYPE" />
+          <ScalarProperty Name="MEMO" ColumnName="MEMO" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_PINT_ZYT_MSKM">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_PINT_ZYT_MSKM">
+        <MappingFragment StoreEntitySet="P_PINT_ZYT_MSKM">
+          <ScalarProperty Name="SYHN_KUKN_UKTK_NO" ColumnName="SYHN_KUKN_UKTK_NO" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="MSM_YMD" ColumnName="MSM_YMD" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="SYU_PINT" ColumnName="SYU_PINT" />
+          <ScalarProperty Name="KUKN_RT" ColumnName="KUKN_RT" />
+          <ScalarProperty Name="ZYT_KNGK" ColumnName="ZYT_KNGK" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_PWD_RRK_KNRSY">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_PWD_RRK_KNRSY">
+        <MappingFragment StoreEntitySet="P_PWD_RRK_KNRSY">
+          <ScalarProperty Name="KNRSY_ID" ColumnName="KNRSY_ID" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_RYUKNRNDU_PINT">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_RYUKNRNDU_PINT">
+        <MappingFragment StoreEntitySet="P_RYUKNRNDU_PINT">
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="SIKYU_KNR_NO" ColumnName="SIKYU_KNR_NO" />
+          <ScalarProperty Name="SIKYU_YM" ColumnName="SIKYU_YM" />
+          <ScalarProperty Name="URAG_YM" ColumnName="URAG_YM" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="SHKG_YMD" ColumnName="SHKG_YMD" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="PINT_HY_ID" ColumnName="PINT_HY_ID" />
+          <ScalarProperty Name="PINT_HY_MSG" ColumnName="PINT_HY_MSG" />
+          <ScalarProperty Name="HY_PINT_SU" ColumnName="HY_PINT_SU" />
+          <ScalarProperty Name="HY_PINT_KISN_DT" ColumnName="HY_PINT_KISN_DT" />
+          <ScalarProperty Name="CSV_SYTRYK_FLG" ColumnName="CSV_SYTRYK_FLG" />
+          <ScalarProperty Name="CSV_SYTRYK_DT" ColumnName="CSV_SYTRYK_DT" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SHK_KIIN_UKTK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SHK_KIIN_UKTK">
+        <MappingFragment StoreEntitySet="P_SHK_KIIN_UKTK">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="KI_JYH" ColumnName="KI_JYH" />
+          <ScalarProperty Name="SGYUSY_ID" ColumnName="SGYUSY_ID" />
+          <ScalarProperty Name="DNK_KIYK_FLG" ColumnName="DNK_KIYK_FLG" />
+          <ScalarProperty Name="NO_SKBT_FLG" ColumnName="NO_SKBT_FLG" />
+          <ScalarProperty Name="DNK_WEBMS_MUSKM_FLG" ColumnName="DNK_WEBMS_MUSKM_FLG" />
+          <ScalarProperty Name="KIYK_HMTK_KBN" ColumnName="KIYK_HMTK_KBN" />
+          <ScalarProperty Name="HMTK_KKNN_ZM_FLG" ColumnName="HMTK_KKNN_ZM_FLG" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="SKS_FY_MKSS_KBN" ColumnName="SKS_FY_MKSS_KBN" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SIKYKG_KKTI_ML_RRK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SIKYKG_KKTI_ML_RRK">
+        <MappingFragment StoreEntitySet="P_SIKYKG_KKTI_ML_RRK">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SIKYU_KNR_NO" ColumnName="SIKYU_KNR_NO" />
+          <ScalarProperty Name="URAG_YM" ColumnName="URAG_YM" />
+          <ScalarProperty Name="SSNSK_ML" ColumnName="SSNSK_ML" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SKS_FY_MSKM">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SKS_FY_MSKM">
+        <MappingFragment StoreEntitySet="P_SKS_FY_MSKM">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SKTI_NNSY">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SKTI_NNSY">
+        <MappingFragment StoreEntitySet="P_SKTI_NNSY">
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SKTI_NNSY_CNT" ColumnName="SKTI_NNSY_CNT" />
+          <ScalarProperty Name="SHH_KBN" ColumnName="SHH_KBN" />
+          <ScalarProperty Name="KZNO_SM4" ColumnName="KZNO_SM4" />
+          <ScalarProperty Name="NNSY_NO" ColumnName="NNSY_NO" />
+          <ScalarProperty Name="NNSY_NO_DT" ColumnName="NNSY_NO_DT" />
+          <ScalarProperty Name="NNSY_NO_YUSUSK" ColumnName="NNSY_NO_YUSUSK" />
+          <ScalarProperty Name="NNSY_NO_YUSUSK_YUBN" ColumnName="NNSY_NO_YUSUSK_YUBN" />
+          <ScalarProperty Name="NNSY_NO_YUSUSK_JYSY" ColumnName="NNSY_NO_YUSUSK_JYSY" />
+          <ScalarProperty Name="NNSY_ZM_FLG" ColumnName="NNSY_ZM_FLG" />
+          <ScalarProperty Name="NNSY_TIMSTNP" ColumnName="NNSY_TIMSTNP" />
+          <ScalarProperty Name="NNSY_KBN" ColumnName="NNSY_KBN" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="TEL" ColumnName="TEL" />
+          <ScalarProperty Name="TEL_NNSY_CNT" ColumnName="TEL_NNSY_CNT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SKTI_NNSY_OLD">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SKTI_NNSY_OLD">
+        <MappingFragment StoreEntitySet="P_SKTI_NNSY_OLD">
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SHH_KBN" ColumnName="SHH_KBN" />
+          <ScalarProperty Name="KZNO_SM4" ColumnName="KZNO_SM4" />
+          <ScalarProperty Name="NNSY_NO" ColumnName="NNSY_NO" />
+          <ScalarProperty Name="NNSY_NO_DT" ColumnName="NNSY_NO_DT" />
+          <ScalarProperty Name="NNSY_NO_YUSUSK" ColumnName="NNSY_NO_YUSUSK" />
+          <ScalarProperty Name="NNSY_NO_YUSUSK_YUBN" ColumnName="NNSY_NO_YUSUSK_YUBN" />
+          <ScalarProperty Name="NNSY_NO_YUSUSK_JYSY" ColumnName="NNSY_NO_YUSUSK_JYSY" />
+          <ScalarProperty Name="NNSY_ZM_FLG" ColumnName="NNSY_ZM_FLG" />
+          <ScalarProperty Name="NNSY_TIMSTNP" ColumnName="NNSY_TIMSTNP" />
+          <ScalarProperty Name="NNSY_KBN" ColumnName="NNSY_KBN" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SKTI_NNSY_OLD1">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SKTI_NNSY_OLD1">
+        <MappingFragment StoreEntitySet="P_SKTI_NNSY_OLD1">
+          <ScalarProperty Name="SKTI_NO" ColumnName="SKTI_NO" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SKTI_CNT" ColumnName="SKTI_CNT" />
+          <ScalarProperty Name="SHH_KBN" ColumnName="SHH_KBN" />
+          <ScalarProperty Name="KZNO_SM4" ColumnName="KZNO_SM4" />
+          <ScalarProperty Name="NNSY_NO" ColumnName="NNSY_NO" />
+          <ScalarProperty Name="NNSY_NO_DT" ColumnName="NNSY_NO_DT" />
+          <ScalarProperty Name="NNSY_NO_YUSUSK" ColumnName="NNSY_NO_YUSUSK" />
+          <ScalarProperty Name="NNSY_NO_YUSUSK_YUBN" ColumnName="NNSY_NO_YUSUSK_YUBN" />
+          <ScalarProperty Name="NNSY_NO_YUSUSK_JYSY" ColumnName="NNSY_NO_YUSUSK_JYSY" />
+          <ScalarProperty Name="NNSY_ZM_FLG" ColumnName="NNSY_ZM_FLG" />
+          <ScalarProperty Name="NNSY_TIMSTNP" ColumnName="NNSY_TIMSTNP" />
+          <ScalarProperty Name="NNSY_KBN" ColumnName="NNSY_KBN" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SNKKIIN_MAIL_UKTK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SNKKIIN_MAIL_UKTK">
+        <MappingFragment StoreEntitySet="P_SNKKIIN_MAIL_UKTK">
+          <ScalarProperty Name="SSYN_KI" ColumnName="SSYN_KI" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="KI_JYH" ColumnName="KI_JYH" />
+          <ScalarProperty Name="SGYUSY_ID" ColumnName="SGYUSY_ID" />
+          <ScalarProperty Name="DNK_KIYK_FLG" ColumnName="DNK_KIYK_FLG" />
+          <ScalarProperty Name="NO_SKBT_FLG" ColumnName="NO_SKBT_FLG" />
+          <ScalarProperty Name="KIIN_TURK_KBN" ColumnName="KIIN_TURK_KBN" />
+          <ScalarProperty Name="ERR_RY" ColumnName="ERR_RY" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SRAL_ID">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SRAL_ID">
+        <MappingFragment StoreEntitySet="P_SRAL_ID">
+          <ScalarProperty Name="SRAL_ID" ColumnName="SRAL_ID" />
+          <ScalarProperty Name="MNY_ID" ColumnName="MNY_ID" />
+          <ScalarProperty Name="YUT_KBN" ColumnName="YUT_KBN" />
+          <ScalarProperty Name="SYHN_KUKN_UKTK_NO" ColumnName="SYHN_KUKN_UKTK_NO" />
+          <ScalarProperty Name="SYU_PINT" ColumnName="SYU_PINT" />
+          <ScalarProperty Name="KUKN_RT" ColumnName="KUKN_RT" />
+          <ScalarProperty Name="NBK_KNGK" ColumnName="NBK_KNGK" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="HTBN_NTZ" ColumnName="HTBN_NTZ" />
+          <ScalarProperty Name="YUKUKGN" ColumnName="YUKUKGN" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SSYN_KNR">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SSYN_KNR">
+        <MappingFragment StoreEntitySet="P_SSYN_KNR">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SSYN_ID" ColumnName="SSYN_ID" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SSYN_KNR_KNRSY">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SSYN_KNR_KNRSY">
+        <MappingFragment StoreEntitySet="P_SSYN_KNR_KNRSY">
+          <ScalarProperty Name="KNRSY_ID" ColumnName="KNRSY_ID" />
+          <ScalarProperty Name="SSYN_ID" ColumnName="SSYN_ID" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SYHN_KUKN_UKTK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SYHN_KUKN_UKTK">
+        <MappingFragment StoreEntitySet="P_SYHN_KUKN_UKTK">
+          <ScalarProperty Name="SYHN_KUKN_UKTK_NO" ColumnName="SYHN_KUKN_UKTK_NO" />
+          <ScalarProperty Name="KUKN_DT" ColumnName="KUKN_DT" />
+          <ScalarProperty Name="KIIN_CD" ColumnName="KIIN_CD" />
+          <ScalarProperty Name="SYHN_CD" ColumnName="SYHN_CD" />
+          <ScalarProperty Name="SYHN_NM" ColumnName="SYHN_NM" />
+          <ScalarProperty Name="SYHNR" ColumnName="SYHNR" />
+          <ScalarProperty Name="ITEM_ID" ColumnName="ITEM_ID" />
+          <ScalarProperty Name="TYUMN_KSU" ColumnName="TYUMN_KSU" />
+          <ScalarProperty Name="SYH_PINT" ColumnName="SYH_PINT" />
+          <ScalarProperty Name="HSSK_SMI_SI" ColumnName="HSSK_SMI_SI" />
+          <ScalarProperty Name="HSSK_SMI_MI" ColumnName="HSSK_SMI_MI" />
+          <ScalarProperty Name="HSSK_SMI_SI_KN" ColumnName="HSSK_SMI_SI_KN" />
+          <ScalarProperty Name="HSSK_SMI_MI_KN" ColumnName="HSSK_SMI_MI_KN" />
+          <ScalarProperty Name="HSSK_TEL" ColumnName="HSSK_TEL" />
+          <ScalarProperty Name="HSSK_ZYUSY_YUBN_NO" ColumnName="HSSK_ZYUSY_YUBN_NO" />
+          <ScalarProperty Name="HSSK_ZYUSY_TDFK_CD" ColumnName="HSSK_ZYUSY_TDFK_CD" />
+          <ScalarProperty Name="HSSK_ZYUSY_SKTS" ColumnName="HSSK_ZYUSY_SKTS" />
+          <ScalarProperty Name="HSSK_ZYUSY_SYBNT" ColumnName="HSSK_ZYUSY_SYBNT" />
+          <ScalarProperty Name="HSSK_ZYUSY_BLMN" ColumnName="HSSK_ZYUSY_BLMN" />
+          <ScalarProperty Name="SMARP_TRN_ID" ColumnName="SMARP_TRN_ID" />
+          <ScalarProperty Name="MEMO" ColumnName="MEMO" />
+          <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+          <ScalarProperty Name="THISY_ID" ColumnName="THISY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SYOKAISYA_JYOHO">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SYOKAISYA_JYOHO">
+        <MappingFragment StoreEntitySet="P_SYOKAISYA_JYOHO">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SYOKAI_SYURUI_CD" ColumnName="SYOKAI_SYURUI_CD" />
+          <ScalarProperty Name="SYOKAISYA_SYOZOKU_CD" ColumnName="SYOKAISYA_SYOZOKU_CD" />
+          <ScalarProperty Name="DIV_NO_B1" ColumnName="DIV_NO_B1" />
+          <ScalarProperty Name="DIV_NO_B2" ColumnName="DIV_NO_B2" />
+          <ScalarProperty Name="DIV_ME_B1_B2" ColumnName="DIV_ME_B1_B2" />
+          <ScalarProperty Name="TANTOSYA_SI" ColumnName="TANTOSYA_SI" />
+          <ScalarProperty Name="TANTOSYA_MI" ColumnName="TANTOSYA_MI" />
+          <ScalarProperty Name="TURK_DATE" ColumnName="TURK_DATE" />
+          <ScalarProperty Name="DAIKO_TOROKU_FLG" ColumnName="DAIKO_TOROKU_FLG" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_SYOKAISYA_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_SYOKAISYA_MST">
+        <MappingFragment StoreEntitySet="P_SYOKAISYA_MST">
+          <ScalarProperty Name="DIV_CD" ColumnName="DIV_CD" />
+          <ScalarProperty Name="DIV_ME" ColumnName="DIV_ME" />
+          <ScalarProperty Name="HYZ_DIV_ME" ColumnName="HYZ_DIV_ME" />
+          <ScalarProperty Name="ZYOI_DIV_CD" ColumnName="ZYOI_DIV_CD" />
+          <ScalarProperty Name="SYOKAI_SYURUI_CD" ColumnName="SYOKAI_SYURUI_CD" />
+          <ScalarProperty Name="SYOKAISYA_SYOZOKU_CD" ColumnName="SYOKAISYA_SYOZOKU_CD" />
+          <ScalarProperty Name="KIS_LVL_CD" ColumnName="KIS_LVL_CD" />
+          <ScalarProperty Name="HYZ_FLG" ColumnName="HYZ_FLG" />
+          <ScalarProperty Name="HYZ_ORD" ColumnName="HYZ_ORD" />
+          <ScalarProperty Name="HYZ_GRP_ORD" ColumnName="HYZ_GRP_ORD" />
+          <ScalarProperty Name="HYZ_GRP_ME" ColumnName="HYZ_GRP_ME" />
+          <ScalarProperty Name="KAYI_DIV_NEED_FLG" ColumnName="KAYI_DIV_NEED_FLG" />
+          <ScalarProperty Name="TKY_KIS_DT" ColumnName="TKY_KIS_DT" />
+          <ScalarProperty Name="TKY_SYURYO_DT" ColumnName="TKY_SYURYO_DT" />
+          <ScalarProperty Name="TRKS_ID" ColumnName="TRKS_ID" />
+          <ScalarProperty Name="KSNS_ID" ColumnName="KSNS_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_TAPOINT_KKN_OTP_HK_RRK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_TAPOINT_KKN_OTP_HK_RRK">
+        <MappingFragment StoreEntitySet="P_TAPOINT_KKN_OTP_HK_RRK">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="TURK_YMD" ColumnName="TURK_YMD" />
+          <ScalarProperty Name="KIIN_ML" ColumnName="KIIN_ML" />
+          <ScalarProperty Name="KIIN_ML_SB" ColumnName="KIIN_ML_SB" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_TDHK_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_TDHK_MST">
+        <MappingFragment StoreEntitySet="P_TDHK_MST">
+          <ScalarProperty Name="TDHK_CD" ColumnName="TDHK_CD" />
+          <ScalarProperty Name="HYUZ_ZYN" ColumnName="HYUZ_ZYN" />
+          <ScalarProperty Name="TDHK_NM" ColumnName="TDHK_NM" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_TIAWS">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_TIAWS">
+        <MappingFragment StoreEntitySet="P_TIAWS">
+          <ScalarProperty Name="TIAWS_ID" ColumnName="TIAWS_ID" />
+          <ScalarProperty Name="TIAWS_SYBT_CD" ColumnName="TIAWS_SYBT_CD" />
+          <ScalarProperty Name="TIAWS_NIY" ColumnName="TIAWS_NIY" />
+          <ScalarProperty Name="TIAWS_KIIN_ID" ColumnName="TIAWS_KIIN_ID" />
+          <ScalarProperty Name="TIAWSSY_SI" ColumnName="TIAWSSY_SI" />
+          <ScalarProperty Name="TIAWSSY_MI" ColumnName="TIAWSSY_MI" />
+          <ScalarProperty Name="TIAWSSY_SI_KN" ColumnName="TIAWSSY_SI_KN" />
+          <ScalarProperty Name="TIAWSSY_MI_KN" ColumnName="TIAWSSY_MI_KN" />
+          <ScalarProperty Name="TIAWSSY_EMAIL" ColumnName="TIAWSSY_EMAIL" />
+          <ScalarProperty Name="TIAWSSY_TEL" ColumnName="TIAWSSY_TEL" />
+          <ScalarProperty Name="TIAWSSY_ZYUSY_YUBN_NO" ColumnName="TIAWSSY_ZYUSY_YUBN_NO" />
+          <ScalarProperty Name="TIAWSSY_ZYUSY_TDFK_CD" ColumnName="TIAWSSY_ZYUSY_TDFK_CD" />
+          <ScalarProperty Name="TIAWSSY_ZYUSY_SKTS" ColumnName="TIAWSSY_ZYUSY_SKTS" />
+          <ScalarProperty Name="TIAWSSY_ZYUSY_SYBNT" ColumnName="TIAWSSY_ZYUSY_SYBNT" />
+          <ScalarProperty Name="TIAWSSY_ZYUSY_BLMN" ColumnName="TIAWSSY_ZYUSY_BLMN" />
+          <ScalarProperty Name="TIAWS_TIMSTNP" ColumnName="TIAWS_TIMSTNP" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_TIAWS_SYBT_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_TIAWS_SYBT_MST">
+        <MappingFragment StoreEntitySet="P_TIAWS_SYBT_MST">
+          <ScalarProperty Name="TIAWS_SYBT_CD" ColumnName="TIAWS_SYBT_CD" />
+          <ScalarProperty Name="HYUZ_ZYN" ColumnName="HYUZ_ZYN" />
+          <ScalarProperty Name="TIAWS_SYBT_NM" ColumnName="TIAWS_SYBT_NM" />
+          <ScalarProperty Name="TIOUSY_EM" ColumnName="TIOUSY_EM" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_TIKI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_TIKI">
+        <MappingFragment StoreEntitySet="P_TIKI">
+          <ScalarProperty Name="TIKI_ID" ColumnName="TIKI_ID" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="HNBT_KI" ColumnName="HNBT_KI" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_UKTKSY_KNR">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_UKTKSY_KNR">
+        <MappingFragment StoreEntitySet="P_UKTKSY_KNR">
+          <ScalarProperty Name="UKTKSY_ID" ColumnName="UKTKSY_ID" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="UKTKSY_SI" ColumnName="UKTKSY_SI" />
+          <ScalarProperty Name="UKTKSY_MI" ColumnName="UKTKSY_MI" />
+          <ScalarProperty Name="SYZK1" ColumnName="SYZK1" />
+          <ScalarProperty Name="SYZK2" ColumnName="SYZK2" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_YK_KIYK_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_YK_KIYK_MST">
+        <MappingFragment StoreEntitySet="P_YK_KIYK_MST">
+          <ScalarProperty Name="KIYK_SYBT" ColumnName="KIYK_SYBT" />
+          <ScalarProperty Name="HKIIN_FLG" ColumnName="HKIIN_FLG" />
+          <ScalarProperty Name="POINT_KIIN_FLG" ColumnName="POINT_KIIN_FLG" />
+          <ScalarProperty Name="YUTO_KB" ColumnName="YUTO_KB" />
+          <ScalarProperty Name="TURKSY_ID" ColumnName="TURKSY_ID" />
+          <ScalarProperty Name="KUSNSY_ID" ColumnName="KUSNSY_ID" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="MTM_SYR_HMTK_FLG" ColumnName="MTM_SYR_HMTK_FLG" />
+          <ScalarProperty Name="PINT_JYT_FLG" ColumnName="PINT_JYT_FLG" />
+          <ScalarProperty Name="RYKNRYSNY_CP_FLG" ColumnName="RYKNRYSNY_CP_FLG" />
+          <ScalarProperty Name="RYKNRYSNY_CP_KISN_FLG" ColumnName="RYKNRYSNY_CP_KISN_FLG" />
+          <ScalarProperty Name="DR_HTR_TYS_FLG" ColumnName="DR_HTR_TYS_FLG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_YUBN_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_YUBN_MST">
+        <MappingFragment StoreEntitySet="P_YUBN_MST">
+          <ScalarProperty Name="SEQ_ID" ColumnName="SEQ_ID" />
+          <ScalarProperty Name="ZNKK_THU_KUKY_DNTI_CD" ColumnName="ZNKK_THU_KUKY_DNTI_CD" />
+          <ScalarProperty Name="KYBNO" ColumnName="KYBNO" />
+          <ScalarProperty Name="YBNO" ColumnName="YBNO" />
+          <ScalarProperty Name="TDFK_MS_KN" ColumnName="TDFK_MS_KN" />
+          <ScalarProperty Name="SKTS_MS_KN" ColumnName="SKTS_MS_KN" />
+          <ScalarProperty Name="TYIK_MS_KN" ColumnName="TYIK_MS_KN" />
+          <ScalarProperty Name="TDFK_MS" ColumnName="TDFK_MS" />
+          <ScalarProperty Name="SKTS_MS" ColumnName="SKTS_MS" />
+          <ScalarProperty Name="TYIK_MS" ColumnName="TYIK_MS" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WK_SIKYU_GK_STS">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.WK_SIKYU_GK_STS">
+        <MappingFragment StoreEntitySet="WK_SIKYU_GK_STS">
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="SIKYU_YM" ColumnName="SIKYU_YM" />
+          <ScalarProperty Name="SBS_SYBT" ColumnName="SBS_SYBT" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="KIYK_SYBT" ColumnName="KIYK_SYBT" />
+          <ScalarProperty Name="KIYK_KNG_H_OLD" ColumnName="KIYK_KNG_H_OLD" />
+          <ScalarProperty Name="KIYK_KNG_H" ColumnName="KIYK_KNG_H" />
+          <ScalarProperty Name="KIYK_SYRY_YMD" ColumnName="KIYK_SYRY_YMD" />
+          <ScalarProperty Name="GK" ColumnName="GK" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_LINE_SIKYKG_SYUKI_SYUKI">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_LINE_SIKYKG_SYUKI_SYUKI">
+        <MappingFragment StoreEntitySet="P_LINE_SIKYKG_SYUKI_SYUKI">
+          <ScalarProperty Name="SYUKI_SBT" ColumnName="SYUKI_SBT" />
+          <ScalarProperty Name="SYUKI_M" ColumnName="SYUKI_M" />
+          <ScalarProperty Name="SYUKI_D" ColumnName="SYUKI_D" />
+          <ScalarProperty Name="YS_ID" ColumnName="YS_ID" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="ZKU_DT" ColumnName="ZKU_DT" />
+          <ScalarProperty Name="KIIN_JYTI" ColumnName="KIIN_JYTI" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="P_ANSN_SBS_MSKM_UKTK">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.P_ANSN_SBS_MSKM_UKTK">
+        <MappingFragment StoreEntitySet="P_ANSN_SBS_MSKM_UKTK">
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="ERR_CD" ColumnName="ERR_CD" />
+          <ScalarProperty Name="CTG_ERR_IRI_FLG" ColumnName="CTG_ERR_IRI_FLG" />
+          <ScalarProperty Name="RNKE_KYK_FLG_TIMSTNP" ColumnName="RNKE_KYK_FLG_TIMSTNP" />
+          <ScalarProperty Name="RNKE_KYK_FLG" ColumnName="RNKE_KYK_FLG" />
+          <ScalarProperty Name="SGODR_NO" ColumnName="SGODR_NO" />
+          <ScalarProperty Name="MLMG_HISN_KBN" ColumnName="MLMG_HISN_KBN" />
+          <ScalarProperty Name="KIYK_MUSKM_RYU" ColumnName="KIYK_MUSKM_RYU" />
+          <ScalarProperty Name="MSM_KBN_SYUSI" ColumnName="MSM_KBN_SYUSI" />
+          <ScalarProperty Name="SGYUSY_SSK_NO" ColumnName="SGYUSY_SSK_NO" />
+          <ScalarProperty Name="SGYUSY_CD" ColumnName="SGYUSY_CD" />
+          <ScalarProperty Name="KIIN_ID" ColumnName="KIIN_ID" />
+          <ScalarProperty Name="TM_KBN" ColumnName="TM_KBN" />
+          <ScalarProperty Name="MYSHOP_SSK_NO" ColumnName="MYSHOP_SSK_NO" />
+          <ScalarProperty Name="ANSN_SBS_PLN" ColumnName="ANSN_SBS_PLN" />
+          <ScalarProperty Name="ANSN_SBS_KIYK_NO" ColumnName="ANSN_SBS_KIYK_NO" />
+          <ScalarProperty Name="KIYK_NO" ColumnName="KIYK_NO" />
+          <ScalarProperty Name="MSM_KBN" ColumnName="MSM_KBN" />
+          <ScalarProperty Name="MSM_YMD" ColumnName="MSM_YMD" />
+          <ScalarProperty Name="MSM_NO" ColumnName="MSM_NO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_BRK_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_BRK_MST">
+        <MappingFragment StoreEntitySet="C_BRK_MST">
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TYU_CD" ColumnName="TYU_CD" />
+          <ScalarProperty Name="GSK_CD" ColumnName="GSK_CD" />
+          <ScalarProperty Name="BRK_CD" ColumnName="BRK_CD" />
+          <ScalarProperty Name="BRK_MST_NO" ColumnName="BRK_MST_NO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_MISYP_KNR_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_MISYP_KNR_MST">
+        <MappingFragment StoreEntitySet="C_MISYP_KNR_MST">
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="DKZ_TKTN_UM" ColumnName="DKZ_TKTN_UM" />
+          <ScalarProperty Name="HYUZYU_MISYP_URL" ColumnName="HYUZYU_MISYP_URL" />
+          <ScalarProperty Name="HYUZYU_MISYP_DWNO" ColumnName="HYUZYU_MISYP_DWNO" />
+          <ScalarProperty Name="HYUZYU_MISYP_ZYUSY" ColumnName="HYUZYU_MISYP_ZYUSY" />
+          <ScalarProperty Name="HYUZYU_MISYP_YUBN_NO" ColumnName="HYUZYU_MISYP_YUBN_NO" />
+          <ScalarProperty Name="GSK_CD" ColumnName="GSK_CD" />
+          <ScalarProperty Name="ST_YU_MISYP_ME_KN" ColumnName="ST_YU_MISYP_ME_KN" />
+          <ScalarProperty Name="MISYP_ME" ColumnName="MISYP_ME" />
+          <ScalarProperty Name="MSM_SYRY_YMD" ColumnName="MSM_SYRY_YMD" />
+          <ScalarProperty Name="MSM_KNG_H" ColumnName="MSM_KNG_H" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="SSK_NO" ColumnName="SSK_NO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="C_TEKY_MST">
+      <EntityTypeMapping TypeName="Thg_TohogasModel.C_TEKY_MST">
+        <MappingFragment StoreEntitySet="C_TEKY_MST">
+          <ScalarProperty Name="KUSN_TIMSTNP" ColumnName="KUSN_TIMSTNP" />
+          <ScalarProperty Name="TURK_TIMSTNP" ColumnName="TURK_TIMSTNP" />
+          <ScalarProperty Name="RNR_SKZY_FLG" ColumnName="RNR_SKZY_FLG" />
+          <ScalarProperty Name="KUSN_KNTR" ColumnName="KUSN_KNTR" />
+          <ScalarProperty Name="KUSN_YMD" ColumnName="KUSN_YMD" />
+          <ScalarProperty Name="TYS_YMD" ColumnName="TYS_YMD" />
+          <ScalarProperty Name="TYK_YMD" ColumnName="TYK_YMD" />
+          <ScalarProperty Name="TURK_SSK_NO" ColumnName="TURK_SSK_NO" />
+          <ScalarProperty Name="SGSK_NO" ColumnName="SGSK_NO" />
+          <ScalarProperty Name="BRK_CD" ColumnName="BRK_CD" />
+          <ScalarProperty Name="TEKY_MST_NO" ColumnName="TEKY_MST_NO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
